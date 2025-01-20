@@ -7,8 +7,9 @@
 
 [.lead]
 https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=5210&MevzuatTur=21&MevzuatTertip=5[5210 sayılı] yönetmelikteki usul ve esaslara uygun
-XML şema tanımlaması (XSD). Örnek olarak bir XSL dönüşüm eklenmiştir.
+XML şema tanımlaması (XSD) ve XSL dönüşümü (XSLT).
 
+.Örnek XML
 [source, xml]
 ----
 ----
