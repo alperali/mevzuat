@@ -3,6 +3,12 @@
 :lang: tr
 :açıklama: Mevzuat için normatif usul ve esaslara uygun XSD
 :descripton: XSD for Turkish legal documents
+:source-highlighter: rouge
 
+[.lead]
 https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=5210&MevzuatTur=21&MevzuatTertip=5[5210 sayılı] yönetmelikteki usul ve esaslara uygun
 XML şema tanımlaması (XSD). Örnek olarak bir XSL dönüşüm eklenmiştir.
+
+[source, xml]
+----
+----
