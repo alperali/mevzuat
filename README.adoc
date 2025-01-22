@@ -3,7 +3,6 @@
 :lang: tr
 :açıklama: Mevzuat için normatif usul ve esaslara uygun XSD
 :descripton: XSD for Turkish legal documents
-:source-highlighter: rouge
 
 [.lead]
 https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=5210&MevzuatTur=21&MevzuatTertip=5[5210 sayılı] yönetmelikteki usul ve esaslara uygun
@@ -15,7 +14,9 @@ XML şema tanımlaması (XSD) ve XSL dönüşümü (XSLT).
 [source, xml]
 ----
 <?xml version="1.0" encoding="UTF-8"?>
-<Kanun xmlns="https://github.com/alperali/mevzuat">
+<Kanun xmlns="https://github.com/alperali/mevzuat"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="https://github.com/alperali/mevzuat https://github.com/alperali/mevzuat/mevzuat.xsd">
   <No>5199</No>
   <Başlık>Hayvanları Koruma Kanunu</Başlık>
   <Tarih gün="26" ay="4" yıl="2004"/>
