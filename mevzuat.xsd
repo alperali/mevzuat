@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+  <xs:annotation>
+    <xs:documentation xml:lang="tr">
+      Mevzuat için usul ve esaslara uygun XML şema tanımı
+      A. Alper Atıcı, https://github.com/alperali/mevzuat
+    </xs:documentation>
+  </xs:annotation>
+
+  <xs:complexType name="türTarih">
+    <xs:attribute name="gün" use="required">
+      <xs:simpleType>
+        <xs:restriction base="xs:positiveInteger">
+          <xs:minInclusive value="1" />
+          <xs:maxInclusive value="31" />
+        </xs:restriction>
+      </xs:simpleType>
+    </xs:attribute>
+    <xs:attribute name="ay" use="required">
+      <xs:simpleType>
+        <xs:restriction base="xs:positiveInteger">
+          <xs:minInclusive value="1" />
+          <xs:maxInclusive value="12" />
+        </xs:restriction>
+      </xs:simpleType>
+    </xs:attribute>
+    <xs:attribute name="yıl" use="required">
+      <xs:simpleType>
+        <xs:restriction base="xs:positiveInteger">
+          <xs:minInclusive value="1900" />
+        </xs:restriction>
+      </xs:simpleType>
+    </xs:attribute>
+  </xs:complexType>
+
+  <xs:simpleType name="türBaşlık">
+    <xs:restriction base="xs:string">
+      <xs:pattern value="[0-9A-ZŞİĞÜÇÖ\s]+" />
+    </xs:restriction>
+  </xs:simpleType>
+
+  <xs:element name="Kanun">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="No"     type="xs:positiveInteger" />
+        <xs:element name="Başlık" type="xs:string" />
+        <xs:element name="Tarih"  type="türTarih" />
+        <xs:element name="ResmiGazete">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Tarih" type="türTarih" />
+              <xs:element name="Sayı">
+                <xs:complexType>
+                  <xs:simpleContent>
+                    <xs:extension base="xs:positiveInteger">
+                      <xs:attribute name="mükerrer" type="xs:string" default="" />
+                    </xs:extension>
+                  </xs:simpleContent>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="Düstur">
+                <xs:complexType>
+                  <xs:attribute name="tertip" type="xs:positiveInteger" use="required" />
+                  <xs:attribute name="cilt" type="xs:positiveInteger" use="required" />
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>  
+    </xs:complexType>
+  </xs:element>
+
+</xs:schema>
