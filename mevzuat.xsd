@@ -63,12 +63,59 @@
               <xs:element name="Düstur">
                 <xs:complexType>
                   <xs:attribute name="tertip" type="xs:positiveInteger" use="required" />
-                  <xs:attribute name="cilt" type="xs:positiveInteger" use="required" />
+                  <xs:attribute name="cilt"   type="xs:positiveInteger" use="required" />
                 </xs:complexType>
               </xs:element>
             </xs:sequence>
           </xs:complexType>
         </xs:element>
+      <xs:element name="Kısım" maxOccurs="unbounded">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element name="Bölüm" maxOccurs="unbounded">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="Madde" maxOccurs="unbounded">
+                    <xs:complexType>
+                      <xs:sequence>
+                        <xs:element name="Fıkra" maxOccurs="unbounded">
+                          <xs:complexType mixed="true">
+                            <xs:sequence>
+                              <xs:element name="Bent" minOccurs="0" maxOccurs="unbounded">
+                                <xs:complexType>
+                                  <xs:simpleContent>
+                                    <xs:extension base="xs:string">
+                                      <!-- xs:attribute name="no" type="xs:string" use="required" / -->
+                                      <xs:attribute name="no" use="required">
+                                        <xs:simpleType>
+                                          <xs:restriction base="xs:string">
+                                            <xs:pattern value="[a-zçığşüö][a-zçığşüö]?" />
+                                          </xs:restriction>
+                                        </xs:simpleType>
+                                      </xs:attribute>
+                                    </xs:extension>
+                                  </xs:simpleContent>
+                                </xs:complexType>
+                              </xs:element>
+                            </xs:sequence>
+                            <xs:attribute name="no" type="xs:positiveInteger" use="required" />
+                          </xs:complexType>
+                        </xs:element>
+                      </xs:sequence>
+                      <xs:attribute name="no"     type="xs:positiveInteger" use="required" />
+                      <xs:attribute name="başlık" type="xs:string"          use="required" />       
+                    </xs:complexType>
+                  </xs:element>     
+                </xs:sequence>
+                <xs:attribute name="no"     type="xs:positiveInteger" use="required" />
+                <xs:attribute name="başlık" type="xs:string"          use="required" /> 
+              </xs:complexType>
+            </xs:element>
+          </xs:sequence>
+          <xs:attribute name="no"     type="xs:positiveInteger" use="required" />
+          <xs:attribute name="başlık" type="xs:string"          use="required" />
+        </xs:complexType>
+      </xs:element>
       </xs:sequence>  
     </xs:complexType>
   </xs:element>
