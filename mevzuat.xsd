@@ -1,14 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           xmlns:xlnk="http://www.w3.org/1999/xlink">
 
+  <xs:import namespace="http://www.w3.org/1999/xlink" 
+             schemaLocation="http://www.w3.org/1999/xlink.xsd"/>
+  
   <xs:annotation>
     <xs:documentation xml:lang="tr">
-      Mevzuat için usul ve esaslara uygun XML şema tanımı
+      Mevzuat için usul ve esaslara uygun XML şema tanımı.
       A. Alper Atıcı, https://github.com/alperali/mevzuat
     </xs:documentation>
   </xs:annotation>
-
+  
   <xs:complexType name="türTarih">
     <xs:attribute name="gün" use="required">
       <xs:simpleType>
@@ -35,11 +39,11 @@
     </xs:attribute>
   </xs:complexType>
 
-  <xs:simpleType name="türBaşlık">
+  <!-- xs:simpleType name="türBaşlık">
     <xs:restriction base="xs:string">
       <xs:pattern value="[0-9A-ZŞİĞÜÇÖ\s]+" />
     </xs:restriction>
-  </xs:simpleType>
+  </xs:simpleType -->
 
   <xs:element name="Kanun">
     <xs:complexType>
@@ -85,10 +89,11 @@
                                 <xs:complexType>
                                   <xs:simpleContent>
                                     <xs:extension base="xs:string">
-                                      <!-- xs:attribute name="no" type="xs:string" use="required" / -->
                                       <xs:attribute name="no" use="required">
                                         <xs:simpleType>
                                           <xs:restriction base="xs:string">
+                                            <!-- Aşağıdaki pattern "([a-zçığşüö])\1?" olmalıydı fakat XSD pattern'da back reference desteklemiyor,
+                                                 o nedenle yönetmelikteki koşulu sağlayan en yakın pattern bu -->
                                             <xs:pattern value="[a-zçığşüö][a-zçığşüö]?" />
                                           </xs:restriction>
                                         </xs:simpleType>
@@ -103,7 +108,16 @@
                         </xs:element>
                       </xs:sequence>
                       <xs:attribute name="no"     type="xs:positiveInteger" use="required" />
-                      <xs:attribute name="başlık" type="xs:string"          use="required" />       
+                      <xs:attribute name="başlık" type="xs:string"          use="required" />
+                      <xs:attribute name="tür" default="">
+                        <xs:simpleType>
+                          <xs:restriction base="xs:string">
+                            <xs:enumaration value="" />
+                            <xs:enumaration value="geçici" />
+                            <xs:enumaration value="ek" />
+                          </xs:restriction>
+                        </xs:simpleType>
+                      </xs:attribute>
                     </xs:complexType>
                   </xs:element>     
                 </xs:sequence>
