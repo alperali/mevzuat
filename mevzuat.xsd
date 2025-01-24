@@ -4,7 +4,7 @@
            xmlns:xlnk="http://www.w3.org/1999/xlink">
 
   <xs:import namespace="http://www.w3.org/1999/xlink" 
-             schemaLocation="http://www.w3.org/1999/xlink.xsd"/>
+             schemaLocation="xlink.xsd"/>
   
   <xs:annotation>
     <xs:documentation xml:lang="tr">
@@ -112,9 +112,9 @@
                       <xs:attribute name="tür" default="">
                         <xs:simpleType>
                           <xs:restriction base="xs:string">
-                            <xs:enumaration value="" />
-                            <xs:enumaration value="geçici" />
-                            <xs:enumaration value="ek" />
+                            <xs:enumeration value="" />
+                            <xs:enumeration value="geçici" />
+                            <xs:enumeration value="ek" />
                           </xs:restriction>
                         </xs:simpleType>
                       </xs:attribute>
