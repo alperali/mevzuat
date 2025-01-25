@@ -7,5 +7,5 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v4
-    - run: pwd
-    - run: ls -l
+    - run: sudo apt-get install libxml2-utils
+    - run: xmllint --noout --schema mevzuat.xsd 5199.xml
