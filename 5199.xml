@@ -26,6 +26,56 @@
           <Bent no="a">
             Yaşama ortamı: Bir hayvanın veya hayvan topluluğunun doğal olarak yaşadığı yeri,
           </Bent>
+          <Bent no="b">
+            Etoloji: Bir hayvan türünün doğuştan gelen, kendine özgü davranışlarını inceleyen bilim dalını,
+          </Bent>
+          <Bent no="c">
+            Ekosistem: Canlıların kendi aralarında ve cansız çevreleriyle ilişkilerini bir düzen içinde yürüttükleri biyolojik, fiziksel ve kimyasal sistemi,
+          </Bent>
+          <Bent no="d">
+            Tür: Birbirleriyle çiftleşebilen ve üreme yeteneğine sahip verimli döller verebilen populasyonları,
+          </Bent>
+          <Bent no="e">
+            Evcil hayvan: İnsan tarafından kültüre alınmış ve eğitilmiş hayvanları,
+          </Bent>
+          <Bent no="f">
+            <Atıf tür="Değişik" tarih="30/7/2024" kanun="7527" madde="2" />
+            Sahipsiz hayvan: Sahipli hayvanlar dışında kalan evcil hayvanları,
+          </Bent>
+          <Bent no="g">
+            Güçten düşmüş hayvan: Bulaşıcı ve salgın hayvan hastalıkları haricinde yaşlanma, sakatlanma, yaralanma ve hastalanma gibi çeşitli nedenlerle fizikî olarak iş yapabilme yeteneğini kaybetmiş binek ve yük hayvanlarını,
+          </Bent>
+          <Bent no="h">
+            Yabani hayvan: Doğada serbest yaşayan evcilleştirilmemiş ve kültüre alınmamış omurgalı ve omurgasız hayvanları,
+          </Bent>
+          <Bent no="ı">
+            <Atıf tür="Değişik" tarih="9/7/2021" kanun="7332" madde="1" />
+            Ev hayvanı: Gerçek veya tüzel kişiler tarafından özellikle evde, iş yerlerinde ya da arazisinde özel ilgi ve refakat amacıyla muhafaza edilen, bakımı ve sorumluluğu sahiplerince üstlenilen her türlü hayvanı,
+          </Bent>
+          <Bent no="j">
+            <Atıf tür="Değişik" tarih="30/7/2024" kanun="7527" madde="2" />
+            Sahipli hayvan: Bir kişi, kuruluş, kurum ya da tüzel kişilik tarafından sahiplenilen, bakımı, aşıları, periyodik sağlık kontrolleri yapılan ve Bakanlık veri tabanına kaydedilen ev hayvanlarını,
+          </Bent>
+          <Bent no="k">
+            <Atıf tür="Değişik" tarih="9/7/2021" kanun="7332" madde="1" />
+            Hayvan bakımevi: Bakanlıktan izin alınmak suretiyle kurulan, hayvanların sahiplendirilinceye kadar barındırıldığı ve rehabilite edildiği bir tesisi,
+          </Bent>
+          <Bent no="l">
+            Deney: Herhangi bir hayvanın acı, eziyet, üzüntü veya uzun süreli hasara neden olacak deneysel ya da diğer bilimsel amaçlarla kullanılmasını,
+          </Bent>
+          <Bent no="m">
+            Deney hayvanı: Deneyde kullanılan ya da kullanılacak olan hayvanı,
+          </Bent>
+          <Bent no="n">
+            Kesim hayvanı: Gıda amaçlı kesimi yapılan hayvanları,
+          </Bent>
+          <Bent no="o">
+            Bakanlık: Tarım ve Orman Bakanlığını,
+          </Bent>
+          <Bent no="p">
+            <Atıf tür="Ek" tarih="9/7/2021" kanun="7332" madde="1" />
+            Rehabilitasyon: Sahipsiz hayvanların tedavi ve parazit mücadelesinin yapılmasını, aşılanmasını, kısırlaştırılmasını ve dijital kimliklendirme yöntemleriyle işaretlenmesini,
+          </Bent>
         </Fıkra>
       </Madde>
     </Bölüm>

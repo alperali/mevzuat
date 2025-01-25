@@ -35,6 +35,27 @@
     </xs:attribute>
   </xs:complexType>
 
+  <xs:complexType name="türAtıf">
+    <xs:attribute name="tür" use="required">
+      <xs:simpleType>
+        <xs:restriction base="xs:string">
+          <xs:enumeration value="Değişik" />
+          <xs:enumeration value="Ek" />
+          <xs:enumeration value="Mülga" />
+        </xs:restriction>
+      </xs:simpleType>
+    </xs:attribute>
+    <xs:attribute name="tarih" use="required">
+      <xs:simpleType>
+        <xs:restriction base="xs:string">
+          <xs:pattern value="\d?\d\/\d?\d\/\d{4}" />
+        </xs:restriction>
+      </xs:simpleType>
+    </xs:attribute>
+    <xs:attribute name="kanun" type="xs:positiveInteger" use="required" />
+    <xs:attribute name="madde" type="xs:positiveInteger" use="required" />
+  </xs:complexType>
+
   <!-- xs:simpleType name="türBaşlık">
     <xs:restriction base="xs:string">
       <xs:pattern value="[0-9A-ZŞİĞÜÇÖ\s]+" />
@@ -82,20 +103,19 @@
                           <xs:complexType mixed="true">
                             <xs:sequence>
                               <xs:element name="Bent" minOccurs="0" maxOccurs="unbounded">
-                                <xs:complexType>
-                                  <xs:simpleContent>
-                                    <xs:extension base="xs:string">
-                                      <xs:attribute name="no" use="required">
-                                        <xs:simpleType>
-                                          <xs:restriction base="xs:string">
-                                            <!-- Aşağıdaki pattern "([a-zçığşüö])\1?" olmalıydı fakat XSD pattern'da back reference desteklemiyor,
-                                                 o nedenle yönetmelikteki koşulu sağlayan en yakın pattern bu -->
-                                            <xs:pattern value="[a-zçığşüö][a-zçığşüö]?" />
-                                          </xs:restriction>
-                                        </xs:simpleType>
-                                      </xs:attribute>
-                                    </xs:extension>
-                                  </xs:simpleContent>
+                                <xs:complexType mixed="true">
+                                  <xs:sequence>
+                                    <xs:element name="Atıf" type="türAtıf" minOccurs="0" />
+                                  </xs:sequence>
+                                  <xs:attribute name="no" use="required">
+                                    <xs:simpleType>
+                                      <xs:restriction base="xs:string">
+                                        <!-- Aşağıdaki pattern "([a-zçığşüö])\1?" olmalıydı fakat XSD pattern'da back reference desteklemiyor,
+                                             o nedenle yönetmelikteki koşulu sağlayan en yakın pattern bu -->
+                                        <xs:pattern value="[a-zçığşüö][a-zçığşüö]?" />
+                                      </xs:restriction>
+                                    </xs:simpleType>
+                                  </xs:attribute>
                                 </xs:complexType>
                               </xs:element>
                             </xs:sequence>
