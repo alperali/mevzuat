@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
-           xmlns:xlnk="http://www.w3.org/1999/xlink">
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
 
-  <xs:import namespace="http://www.w3.org/1999/xlink" 
-             schemaLocation="xlink.xsd"/>
-  
   <xs:annotation>
     <xs:documentation xml:lang="tr">
       Mevzuat için usul ve esaslara uygun XML şema tanımı.
