@@ -1,0 +1,9 @@
+on:
+  push:
+    branches:
+    - ana
+jobs:
+  lint:
+    runs-on: ubuntu-latest
+    steps:
+    - run: echo "Oldu... "
