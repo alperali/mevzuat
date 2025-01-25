@@ -6,4 +6,4 @@ jobs:
   lint:
     runs-on: ubuntu-latest
     steps:
-    - run: echo "Oldu... "
+    - run: xmllint --noout --schema mevzuat.xsd 5199.xml
