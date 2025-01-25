@@ -48,7 +48,7 @@
     <xs:attribute name="tarih" use="required">
       <xs:simpleType>
         <xs:restriction base="xs:string">
-          <xs:pattern value="\d?\d\/\d?\d\/\d{4}" />
+          <xs:pattern value="\d?\d/d?\d/\d{4}" />
         </xs:restriction>
       </xs:simpleType>
     </xs:attribute>
