@@ -78,6 +78,83 @@
           </Bent>
         </Fıkra>
       </Madde>
+      <Madde no="4" başlık="İlkeler">
+        <Fıkra no="1">
+          Hayvanların korunmasına ve rahat yaşamalarına ilişkin temel ilkeler şunlardır:
+          <Bent no="a">
+            Bütün hayvanlar eşit doğar ve bu Kanun hükümleri çerçevesinde yaşama hakkına sahiptir.
+          </Bent>
+          <Bent no="b">
+            <Atıf tür="Mülga" tarih="30/7/2024" kanun="7527" madde="3" />
+          </Bent>
+          <Bent no="c">
+            Hayvanların korunması, gözetilmesi, bakımı ve kötü muamelelerden uzak tutulması için gerekli önlemler alınmalıdır.
+          </Bent>
+          <Bent no="d">
+            <Atıf tür="Değişik" tarih="30/7/2024" kanun="7527" madde="3" />
+            Hiçbir maddî kazanç ve menfaat amacı gütmeksizin, sadece insanî ve vicdanî sorumluluklarla, sahipsiz ve güçten düşmüş hayvanları sahiplenmek isteyen ve bu kanunda öngörülen koşulları taşıyan gerçek ve tüzel kişilerin teşviki ve bu kapsamda eşgüdüm sağlanması esastır.
+          </Bent>
+          <Bent no="e">
+            Nesli yok olma tehlikesi altında bulunan tür ve bunların yaşama ortamlarının korunması esastır.
+          </Bent>
+          <Bent no="f">
+            Yabani hayvanların yaşama ortamlarından koparılmaması, doğada serbestçe yaşayan bir hayvanın yakalanıp özgürlükten yoksun bırakılmaması esastır.
+          </Bent>
+          <Bent no="g">
+            Hayvanların korunması ve rahat yaşamalarının sağlanmasında; insanlarla diğer hayvanların hijyen, sağlık ve güvenlikleri de dikkate alınmalıdır.
+          </Bent>
+          <Bent no="h">
+            Hayvanların türüne özgü şartlarda bakılması, beslenmesi, barındırılma ve taşınması esastır.
+          </Bent>
+          <Bent no="ı">
+            Hayvanları taşıyan ve taşıtanlar onları türüne ve özelliğine uygun ortam ve şartlarda taşımalı, taşıma sırasında beslemeli ve bakımını yapmalıdırlar.
+          </Bent>
+          <Bent no="j">
+            <Atıf tür="Değişik" tarih="9/7/2021"  kanun="7332" madde="2" />
+            <Atıf tür="Değişik" tarih="30/7/2024" kanun="7527" madde="3" />
+            Yerel yönetimler, gönüllü kuruluşlarla iş birliği içerisinde, sahipsiz hayvanların sahiplendirilinceye kadar bakılmaları için hayvan bakımevleri kurarak onların bakımlarını ve tedavilerini sağlar ve eğitim çalışmaları yapar. Ayrıca yerel yönetimler, ilgili karar organının uygun görmesi halinde hayvan hastanesi kurar.
+          </Bent>
+          <Bent no="k">
+            <Atıf tür="Değişik" tarih="9/7/2021"  kanun="7332" madde="2" />
+            Kontrolsüz üremeyi önlemek amacıyla, toplu yaşanan yerlerde beslenen ve barındırılan kedi ve köpeklerin sahiplerince kısırlaştırılması esastır.
+            Kedi ve köpek sahipleri, hayvanlarını dijital kimliklendirme yöntemleriyle kayıt altına aldırmakla yükümlüdürler.
+            Dijital kimliklendirme yöntemlerine ilişkin usul ve esaslar Bakanlıkça yürürlüğe konulacak yönetmelikle belirlenir.
+          </Bent>
+        </Fıkra>
+      </Madde>
+    </Bölüm>
+  </Kısım>
+  <Kısım no="2" başlık="Koruma Tedbirleri">
+    <Bölüm no="1" başlık="Hayvanların Sahiplenilmesi, Bakımı ve Korunması">
+      <Madde no="5" başlık="Hayvanların sahiplenilmesi ve bakımı">
+        <Fıkra no="1">
+          <Atıf tür="Değişik" tarih="9/7/2021"  kanun="7332" madde="3" />
+          <Atıf tür="Değişik" tarih="30/7/2024" kanun="7527" madde="15" />
+          Bir hayvanı, sahiplenen kişi, hayvanı barındırmak, hayvanın türüne ve üreme yöntemine uygun olan etolojik ihtiyaçlarını temin etmek, sağlığına dikkat etmek, insan, hayvan ve çevre sağlığı açısından gerekli tüm önlemleri almakla yükümlüdür.
+        </Fıkra>
+        <Fıkra no="2">
+          Hayvan sahipleri, sahip oldukları hayvanlardan kaynaklanan çevre kirliliğini ve insanlara verilebilecek zarar ve rahatsızlıkları önleyici tedbirleri almakla yükümlü olup; zamanında ve yeterli seviyede tedbir alınmamasından kaynaklanan zararları tazmin etmek zorundadırlar.
+        </Fıkra>
+        <Fıkra no="3">
+          <Atıf tür="Değişik" tarih="9/7/2021"  kanun="7332" madde="3" />
+          Ev hayvanı satan kişiler, bu hayvanların bakımı ve korunması ile ilgili olarak yerel yönetimler tarafından düzenlenen eğitim programlarına katılarak sertifika almakla yükümlüdürler.
+        </Fıkra>
+        <Fıkra no="4">
+          <Atıf tür="Değişik" tarih="9/7/2021"  kanun="7332" madde="3" />
+          <Atıf tür="Değişik" tarih="30/7/2024" kanun="7527" madde="15" />
+          Ev hayvanı sahiplenme şartları, hayvan bakımı ve korunması konularında verilecek eğitim ile ilgili usul ve esaslar ile sahiplenilerek bakılan hayvanların çevreye verecekleri zarar ve rahatsızlıkları önleyici tedbirler, Bakanlıkça çıkarılacak yönetmelikle belirlenir.
+        </Fıkra>
+        <Fıkra no="5">
+          <Atıf tür="Değişik" tarih="9/7/2021"  kanun="7332" madde="3" />
+          Ticarî amaç güdülmeden bakılan ev hayvanları sahiplerinin borcundan dolayı haczedilemezler.
+        </Fıkra>
+        <Fıkra no="6">
+          <Atıf tür="Mülga" tarih="9/7/2021"  kanun="7332" madde="3" />
+        </Fıkra>
+        <Fıkra no="7">
+          <Atıf tür="Mülga" tarih="9/7/2021"  kanun="7332" madde="3" />
+        </Fıkra>
+      </Madde>
     </Bölüm>
   </Kısım>
 </Kanun>

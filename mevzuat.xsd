@@ -56,12 +56,6 @@
     <xs:attribute name="madde" type="xs:positiveInteger" use="required" />
   </xs:complexType>
 
-  <!-- xs:simpleType name="türBaşlık">
-    <xs:restriction base="xs:string">
-      <xs:pattern value="[0-9A-ZŞİĞÜÇÖ\s]+" />
-    </xs:restriction>
-  </xs:simpleType -->
-
   <xs:element name="Kanun">
     <xs:complexType>
       <xs:sequence>
@@ -103,10 +97,11 @@
                         <xs:element name="Fıkra" minOccurs="0" maxOccurs="unbounded">
                           <xs:complexType mixed="true">
                             <xs:sequence>
+                              <xs:element name="Atıf" type="türAtıf" minOccurs="0" maxOccurs="9" />
                               <xs:element name="Bent" minOccurs="0" maxOccurs="unbounded">
                                 <xs:complexType mixed="true">
                                   <xs:sequence>
-                                    <xs:element name="Atıf" type="türAtıf" minOccurs="0" />
+                                    <xs:element name="Atıf" type="türAtıf" minOccurs="0" maxOccurs="9" />
                                   </xs:sequence>
                                   <xs:attribute name="no" use="required">
                                     <xs:simpleType>
