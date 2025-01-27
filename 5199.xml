@@ -228,6 +228,49 @@
       </Madde>
     </Bölüm>
     <Bölüm no="3" başlık="Hayvanların Ticareti ve Eğitilmesi">
+      <Madde no="10" başlık="Hayvanların ticareti">
+        <Fıkra no="1">
+          <Atıf tür="Değişik" tarih="9/7/2021" kanun="7332" madde="4" />
+          Satılırken; hayvanların sağlıklarının iyi, barındırıldıkları yerin temiz ve sağlık şartlarına uygun olması zorunludur. Ev hayvanı satış yerlerinde kedi ve köpek bulundurulamaz, ancak buralarda Bakanlıkça izin verilen ev hayvanı üretim yerlerindeki kedi ve köpeklerin satışı yapılabilir.
+        </Fıkra>
+        <Fıkra no="2">
+          <Atıf tür="Değişik" tarih="9/7/2021" kanun="7332" madde="4" />
+          Çiftlik hayvanlarının bakımı, beslenmesi, nakliyesi ve kesimi esnasında hayvanların refahı ve güvenliğinin sağlanması hususundaki düzenlemeler Bakanlıkça çıkarılacak yönetmelikle belirlenir.
+        </Fıkra>
+        <Fıkra no="3">
+          Yabani hayvanların ticaretine ilişkin düzenlemeler Bakanlıkça çıkarılacak yönetmelikle belirlenir.
+        </Fıkra>
+        <Fıkra no="4">
+          <Atıf tür="Değişik" tarih="9/7/2021" kanun="7332" madde="4" />
+          Ev hayvanlarının üretimini ve ticaretini yapanlar, hayvanların sağlığını tehlikeye atmamak için gerekli anatomik, fizyolojik ve davranış karakteristikleri ile ilgili önlemleri almakla yükümlüdür.
+        </Fıkra>
+        <Fıkra no="5">
+          Hayvanların ticarî amaçla film çekimi ve reklam için kullanılması ile ilgili hususlar izne tâbidir. Bu izne ait usul ve esaslar ilgili kuruluşların görüşü alınarak Bakanlıkça çıkarılacak yönetmelikle belirlenir.
+        </Fıkra>
+        <Fıkra no="6">
+          Bir hayvan; acı, ıstırap ya da zarar görecek şekilde, film çekimi, gösteri, reklam ve benzeri işler için kullanılamaz.
+        </Fıkra>
+        <Fıkra no="7">
+          <Atıf tür="Değişik" tarih="9/7/2021" kanun="7332" madde="4" />
+          Deney hayvanlarının ithalat ve ihracatı izne tâbidir. Bu izin, Bakanlıkça verilir.
+        </Fıkra>
+          Hasta, sakat ve yaşlı durumda bulunan veya iyileşemeyecek derecede ağrısı veya acısı olan bir hayvanı usulüne uygun kesmek ya da ağrısız öldürme amacından başka bir amaçla birine devretmek, satmak veya almak yasaktır.
+        <Fıkra no="8">
+        </Fıkra>
+      </Madde>
+      <Madde no="11" başlık="Eğitim">
+        <Fıkra no="1">
+          Hayvanlar, doğal kapasitesini veya gücünü aşacak şekilde veya yaralanmasına, gereksiz acı çekmesine, kötü alışkanlıklara özendirilmesine neden olacak yöntemlerle eğitilemez.
+        </Fıkra>
+        <Fıkra no="2">
+          Hayvanları başka bir canlı hayvanla dövüştürmek yasaktır. Folklorik amaca yönelik, şiddet içermeyen geleneksel gösteriler, Bakanlığın uygun görüşü alınarak il hayvanları koruma kurullarından izin alınmak suretiyle düzenlenebilir.
+        </Fıkra>
+      </Madde>
+    </Bölüm>
+    <Bölüm no="4" başlık="Hayvanların Kesimi, Ötanazisi ve Yasaklar">
+      <Atıf tür="Değişik" tarih="30/7/2024" kanun="7527" madde="5" />
+      <Madde no="12" başlık="Hayvanların kesimi">
+      </Madde>
     </Bölüm>
   </Kısım>
 </Kanun>
