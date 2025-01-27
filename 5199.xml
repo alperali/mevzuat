@@ -116,7 +116,9 @@
           </Bent>
           <Bent no="k">
             <Atıf tür="Değişik" tarih="9/7/2021"  kanun="7332" madde="2" />
-            Kontrolsüz üremeyi önlemek amacıyla, toplu yaşanan yerlerde beslenen ve barındırılan kedi ve köpeklerin sahiplerince kısırlaştırılması esastır. Kedi ve köpek sahipleri, hayvanlarını dijital kimliklendirme yöntemleriyle kayıt altına aldırmakla yükümlüdürler. Dijital kimliklendirme yöntemlerine ilişkin usul ve esaslar Bakanlıkça yürürlüğe konulacak yönetmelikle belirlenir.
+            Kontrolsüz üremeyi önlemek amacıyla, toplu yaşanan yerlerde beslenen ve barındırılan kedi ve köpeklerin sahiplerince kısırlaştırılması esastır. Kedi ve köpek sahipleri, hayvanlarını dijital kimliklendirme yöntemleriyle kayıt altına aldırmakla yükümlüdürler.
+            <Atıf tür="Ek cümle" tarih="9/7/2021"  kanun="7332" madde="2" />
+            Dijital kimliklendirme yöntemlerine ilişkin usul ve esaslar Bakanlıkça yürürlüğe konulacak yönetmelikle belirlenir.
           </Bent>
         </Fıkra>
       </Madde>
@@ -230,8 +232,9 @@
     <Bölüm no="3" başlık="Hayvanların Ticareti ve Eğitilmesi">
       <Madde no="10" başlık="Hayvanların ticareti">
         <Fıkra no="1">
-          <Atıf tür="Değişik" tarih="9/7/2021" kanun="7332" madde="4" />
-          Satılırken; hayvanların sağlıklarının iyi, barındırıldıkları yerin temiz ve sağlık şartlarına uygun olması zorunludur. Ev hayvanı satış yerlerinde kedi ve köpek bulundurulamaz, ancak buralarda Bakanlıkça izin verilen ev hayvanı üretim yerlerindeki kedi ve köpeklerin satışı yapılabilir.
+          Satılırken; hayvanların sağlıklarının iyi, barındırıldıkları yerin temiz ve sağlık şartlarına uygun olması zorunludur.
+          <Atıf tür="Ek cümle" tarih="9/7/2021" kanun="7332" madde="4" />
+          Ev hayvanı satış yerlerinde kedi ve köpek bulundurulamaz, ancak buralarda Bakanlıkça izin verilen ev hayvanı üretim yerlerindeki kedi ve köpeklerin satışı yapılabilir.
         </Fıkra>
         <Fıkra no="2">
           <Atıf tür="Değişik" tarih="9/7/2021" kanun="7332" madde="4" />
@@ -254,8 +257,8 @@
           <Atıf tür="Değişik" tarih="9/7/2021" kanun="7332" madde="4" />
           Deney hayvanlarının ithalat ve ihracatı izne tâbidir. Bu izin, Bakanlıkça verilir.
         </Fıkra>
-          Hasta, sakat ve yaşlı durumda bulunan veya iyileşemeyecek derecede ağrısı veya acısı olan bir hayvanı usulüne uygun kesmek ya da ağrısız öldürme amacından başka bir amaçla birine devretmek, satmak veya almak yasaktır.
         <Fıkra no="8">
+          Hasta, sakat ve yaşlı durumda bulunan veya iyileşemeyecek derecede ağrısı veya acısı olan bir hayvanı usulüne uygun kesmek ya da ağrısız öldürme amacından başka bir amaçla birine devretmek, satmak veya almak yasaktır.
         </Fıkra>
       </Madde>
       <Madde no="11" başlık="Eğitim">
@@ -270,6 +273,30 @@
     <Bölüm no="4" başlık="Hayvanların Kesimi, Ötanazisi ve Yasaklar">
       <Atıf tür="Değişik" tarih="30/7/2024" kanun="7527" madde="5" />
       <Madde no="12" başlık="Hayvanların kesimi">
+        <Fıkra no="1">
+          Hayvanların kesilmesi; dini kuralların gerektirdiği özel koşullar dikkate alınarak hayvanı korkutmadan, ürkütmeden, en az acı verecek şekilde, hijyenik kurallara uyularak ve usulüne uygun olarak bir anda yapılır. Hayvanların kesiminin ehliyetli kişilerce yapılması sağlanır.
+        </Fıkra>
+        <Fıkra no="2">
+          Dini amaçla kurban kesmek isteyenlerin kurbanlarını dini hükümlere, sağlık şartlarına, çevre temizliğine uygun olarak, hayvana en az acı verecek şekilde bir anda kesimi, kesim yerleri, ehliyetli kesim yapacak kişiler ve ilgili diğer hususlar Bakanlık, kurum ve kuruluşların görüşü alınarak, Diyanet İşleri Başkanlığının bağlı olduğu Bakanlıkça çıkarılacak yönetmelikle belirlenir.
+        </Fıkra>
+      </Madde>
+      <Madde no="13" başlık="Hayvanların ötanazisi">
+        <Atıf tür="Değişik" tarih="30/7/2024" kanun="7527" madde="5" />
+        <Fıkra no="1">
+          <Atıf tür="Ek" tarih="30/7/2024" kanun="7527" madde="5" />
+          Bakımevine alınan köpeklerden; insan ve hayvanların hayatı ve sağlığı için tehlike teşkil eden ve olumsuz davranışları kontrol edilemeyen, bulaşıcı veya tedavi edilemeyen hastalığı bulunan ya da sahiplenilmesi yasak olanlara 11/6/2010 tarihli ve 5996 sayılı Veteriner Hizmetleri, Bitki Sağlığı, Gıda ve Yem Kanununun 9 uncu maddesinin üçüncü fıkrasında belirtilen tedbir uygulanır.
+        </Fıkra>
+        <Fıkra no="2">
+          <Atıf tür="Ek" tarih="30/7/2024" kanun="7527" madde="5" />
+          Yerel yönetimler sahipsiz köpeklere ilişkin yürüttüğü iş ve işlemlerde Bakanlar Kurulunun 28/8/2003 tarihli ve 2003/6168 sayılı Kararı ile onaylanan Ev Hayvanlarının Korunmasına Dair Avrupa Sözleşmesi kapsamında gerekli idari tedbirleri almaya yetkilidir.
+        </Fıkra>
+        <Fıkra no="3">
+          Kanunî istisnalar ile tıbbî ve bilimsel gerekçeler ve gıda amaçlı olmayan, insan ve çevre sağlığına yönelen önlenemez tehditler bulunan acil durumlar dışında yavrulama, gebelik ve süt anneliği dönemlerinde hayvanlar öldürülemez.
+        </Fıkra>
+        <Fıkra no="4">
+          <Atıf tür="Değişik" tarih="30/7/2024" kanun="7527" madde="5" />
+          Öldürme işleminden sorumlu kişi ve kuruluşlar, hayvanın kesin olarak öldüğünden emin olunduktan sonra, hayvanın ölüsünü usulüne uygun olarak bertaraf etmek veya ettirmekle yükümlüdürler. Öldürme ve ötanazi işlemine ilişkin esas ve usuller Bakanlıkça çıkarılacak yönetmelikle belirlenir.
+        </Fıkra>
       </Madde>
     </Bölüm>
   </Kısım>

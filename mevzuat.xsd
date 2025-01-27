@@ -42,6 +42,7 @@
           <xs:enumeration value="Değişik" />
           <xs:enumeration value="Ek" />
           <xs:enumeration value="Mülga" />
+          <xs:enumeration value="Ek cümle" />
         </xs:restriction>
       </xs:simpleType>
     </xs:attribute>
@@ -55,6 +56,10 @@
     <xs:attribute name="kanun" type="xs:positiveInteger" use="required" />
     <xs:attribute name="madde" type="xs:positiveInteger" use="required" />
   </xs:complexType>
+
+  <!-- Madde içindeki Atıf türü Değişik ise madde başlığını değiştirene, Mülga ise maddeyi mülga edene atıftır -->
+  <!-- Bölüm içindeki Atıf türü Değişik ise bölüm başlığını değiştirene atıftır -->
+  <!-- Fıkra ve Bent için değişim, ek, mülga o fıkra/bent içinde belirtilir -->
 
   <xs:element name="Kanun">
     <xs:complexType>
