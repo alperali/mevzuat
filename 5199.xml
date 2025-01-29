@@ -10,8 +10,8 @@
     <Sayı>25509</Sayı>
     <Düstur tertip="5" cilt="43" />
   </ResmiGazete>
-  <Kısım no="1" başlık="Genel Hükümler">
-    <Bölüm no="1" başlık="Amaç, Kapsam, Tanımlar ve İlkeler">
+  <Kısım no="1-BİRİNCİ" başlık="Genel Hükümler">
+    <Bölüm no="1-BİRİNCİ" başlık="Amaç, Kapsam, Tanımlar ve İlkeler">
       <Madde no="1" başlık="Amaç">
         <Fıkra no="1">
           Bu Kanunun amacı; insan, hayvan ve çevre sağlığı gözetilmek kaydıyla hayvanların rahat yaşamlarını ve hayvanlara iyi ve uygun muamele edilmesini temin etmek, hayvanların acı, ıstırap ve eziyet çekmelerine karşı en iyi şekilde korunmalarını, her türlü mağduriyetlerinin önlenmesini sağlamaktır.
@@ -126,8 +126,8 @@
       </Madde>
     </Bölüm>
   </Kısım>
-  <Kısım no="2" başlık="Koruma Tedbirleri">
-    <Bölüm no="1" başlık="Hayvanların Sahiplenilmesi, Bakımı ve Korunması">
+  <Kısım no="2-İKİNCİ" başlık="Koruma Tedbirleri">
+    <Bölüm no="1-BİRİNCİ" başlık="Hayvanların Sahiplenilmesi, Bakımı ve Korunması">
       <Madde no="5" başlık="Hayvanların sahiplenilmesi ve bakımı">
         <Fıkra no="1">
           <Atıf tür="Değişik" tarih="9/7/2021"  kanun="7332" madde="3" />
@@ -184,7 +184,7 @@
         </Fıkra>
       </Madde>
     </Bölüm>
-    <Bölüm no="2" başlık="Hayvanlara Müdahaleler">
+    <Bölüm no="2-İKİNCİ" başlık="Hayvanlara Müdahaleler">
       <Madde no="7" başlık="Cerrahi Müdahaleler">
         <Fıkra no="1">
           Hayvanlara tıbbî ve cerrahi müdahaleler sadece veteriner hekimler tarafından yapılır.
@@ -231,7 +231,7 @@
         </Fıkra>
       </Madde>
     </Bölüm>
-    <Bölüm no="3" başlık="Hayvanların Ticareti ve Eğitilmesi">
+    <Bölüm no="3-ÜÇÜNCÜ" başlık="Hayvanların Ticareti ve Eğitilmesi">
       <Madde no="10" başlık="Hayvanların ticareti">
         <Fıkra no="1">
           Satılırken; hayvanların sağlıklarının iyi, barındırıldıkları yerin temiz ve sağlık şartlarına uygun olması zorunludur.
@@ -272,7 +272,7 @@
         </Fıkra>
       </Madde>
     </Bölüm>
-    <Bölüm no="4" başlık="Hayvanların Kesimi, Ötanazisi ve Yasaklar">
+    <Bölüm no="4-DÖRDÜNCÜ" başlık="Hayvanların Kesimi, Ötanazisi ve Yasaklar">
       <Atıf tür="Değişik" tarih="30/7/2024" kanun="7527" madde="5" />
       <Madde no="12" başlık="Hayvanların kesimi">
         <Fıkra no="1">

@@ -6,6 +6,12 @@
   border: none;
 }
 
+.ortala {
+  text-align: center;
+}
+
 .başlık {
   text-align: center;
+  font-weight: bold;
+  margin-top: -1rem;
 }

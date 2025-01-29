@@ -139,13 +139,25 @@
                     </xs:complexType>
                   </xs:element>     
                 </xs:sequence>
-                <xs:attribute name="no"     type="xs:positiveInteger" use="required" />
-                <xs:attribute name="başlık" type="xs:string"          use="required" /> 
+                <xs:attribute name="no" use="required">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:pattern value="[0-9]+-[A-ZİŞĞÜÖÇ]+" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:attribute>
+                <xs:attribute name="başlık" type="xs:string" use="required" /> 
               </xs:complexType>
             </xs:element>
           </xs:sequence>
-          <xs:attribute name="no"     type="xs:positiveInteger" use="required" />
-          <xs:attribute name="başlık" type="xs:string"          use="required" />
+          <xs:attribute name="no" use="required">
+            <xs:simpleType>
+              <xs:restriction base="xs:string">
+                <xs:pattern value="[0-9]+-[A-ZİŞĞÜÖÇ]+" />
+              </xs:restriction>
+            </xs:simpleType>
+          </xs:attribute>
+          <xs:attribute name="başlık" type="xs:string" use="required" />
         </xs:complexType>
       </xs:element>
       </xs:sequence>  

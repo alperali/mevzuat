@@ -10,7 +10,7 @@
       <link rel="stylesheet" href="./mevzuat.css" />
     </head>
     <body>
-      <h4 class="başlık">
+      <h4 class="ortala">
         <xsl:value-of select="./Başlık" />
       </h4>
       <table class="künye">
@@ -33,6 +33,22 @@
           <td>Cilt: <xsl:value-of select="./ResmiGazete/Düstur/@cilt"/></td>
         </tr>
       </table>
+
+      <xsl:for-each select="./Kısım">
+        <h4 class="ortala"><xsl:value-of select="substring-after(./@no,'-')" /> KISIM</h4>
+        <p class="başlık"><xsl:value-of select="./@başlık" /></p>
+        <xsl:for-each select="./Bölüm">
+          <h4 class="ortala"><xsl:value-of select="substring-after(./@no,'-')" /> BÖLÜM</h4>
+          <p class="başlık"><xsl:value-of select="./@başlık" /></p>
+          <xsl:for-each select="./Madde">
+            <p class="kalın"><xsl-value-of select="./@başlık" /></p>
+            <p><span class="kalın">MADDE <xsl:value-of select="./@no" />- </span>
+
+            </p>
+          </xsl:for-each>
+        </xsl:for-each>
+      </xsl:for-each>
+
     </body>
   </html>
 </xsl:template>
