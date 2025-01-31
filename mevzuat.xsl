@@ -41,10 +41,18 @@
           <h4 class="ortala"><xsl:value-of select="substring-after(./@no,'-')" /> BÖLÜM</h4>
           <p class="başlık"><xsl:value-of select="./@başlık" /></p>
           <xsl:for-each select="./Madde">
-            <p class="kalın"><xsl-value-of select="./@başlık" /></p>
-            <p><span class="kalın">MADDE <xsl:value-of select="./@no" />- </span>
+            <p class="mdbaşlık"><xsl:value-of select="./@başlık" /></p>
+            <div><span class="kalın">MADDE <xsl:value-of select="./@no" />- </span>
+              <xsl:for-each select="./Atıf">
+                <span class="kalın">(<xsl:value-of select="./@tür" />: <xsl:value-of select="./@tarih" />-<xsl:value-of select="./@kanun" />/<xsl:value-of select="./@madde" /> md.) </span>
+              </xsl:for-each>
+              <xsl:for-each select="./Fıkra">
+                <xsl:for-each select="text()">
+                  <p><xsl:value-of select="." />--1</p>
+                </xsl:for-each>  
+              </xsl:for-each>
 
-            </p>
+            </div>
           </xsl:for-each>
         </xsl:for-each>
       </xsl:for-each>
