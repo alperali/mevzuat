@@ -1,64 +1,60 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 
-<xsl:template match="/Kanun">
+<xsl:output method="html" encoding="utf-8" />
+
+<xsl:template match="Kanun">
+  <xsl:text disable-output-escaping='yes'>&lt;!doctype html&gt;</xsl:text>
   <html lang="tr">
     <head>
       <meta charset="utf-8" />
       <meta name="viewport" content="width=device-width, initial-scale=1" />
-      <title><xsl:value-of select="./No" /> - <xsl:value-of select="./Başlık" /></title>
-      <link rel="stylesheet" href="./mevzuat.css" />
+      <title><xsl:value-of select="No" /> - <xsl:value-of select="Başlık" /></title>
+      <link rel="stylesheet" href="./css/mevzuat.css" />
     </head>
     <body>
       <h4 class="ortala">
-        <xsl:value-of select="./Başlık" />
+        <xsl:value-of select="Başlık" />
       </h4>
       <table class="künye">
         <tr class="kalın">
           <td>Kanun Numarası</td>
-          <td>: <xsl:value-of select="./No" /></td>
+          <td>: <xsl:value-of select="No" /></td>
         </tr>
         <tr class="kalın">
           <td>Kabul Tarihi</td>
-          <td>: <xsl:value-of select="./Tarih/@gün"/>/<xsl:value-of select="./Tarih/@ay"/>/<xsl:value-of select="./Tarih/@yıl"/></td>
+          <td>: <xsl:value-of select="Tarih/@gün"/>/<xsl:value-of select="Tarih/@ay"/>/<xsl:value-of select="Tarih/@yıl"/></td>
         </tr>
         <tr class="kalın">
           <td>Yayımlandığı Resmi Gazete</td>
-          <td>: Tarih: <xsl:value-of select="./ResmiGazete/Tarih/@gün"/>/<xsl:value-of select="./ResmiGazete/Tarih/@ay"/>/<xsl:value-of select="./ResmiGazete/Tarih/@yıl"/>&#160;&#160;&#160;&#160;</td>
-          <td>Sayı: <xsl:value-of select="./ResmiGazete/Sayı"/></td>
+          <td>: Tarih: <xsl:value-of select="ResmiGazete/Tarih/@gün"/>/<xsl:value-of select="ResmiGazete/Tarih/@ay"/>/<xsl:value-of select="ResmiGazete/Tarih/@yıl"/>&#160;&#160;&#160;&#160;</td>
+          <td>Sayı: <xsl:value-of select="ResmiGazete/Sayı"/></td>
         </tr>
         <tr class="kalın">
           <td>Yayımlandığı Düstur</td>
-          <td>: Tertip: <xsl:value-of select="./ResmiGazete/Düstur/@tertip"/></td>
-          <td>Cilt: <xsl:value-of select="./ResmiGazete/Düstur/@cilt"/></td>
+          <td>: Tertip: <xsl:value-of select="ResmiGazete/Düstur/@tertip"/></td>
+          <td>Cilt: <xsl:value-of select="ResmiGazete/Düstur/@cilt"/></td>
         </tr>
       </table>
-
-      <xsl:for-each select="./Kısım">
-        <h4 class="ortala"><xsl:value-of select="substring-after(./@no,'-')" /> KISIM</h4>
-        <p class="başlık"><xsl:value-of select="./@başlık" /></p>
-        <xsl:for-each select="./Bölüm">
-          <h4 class="ortala"><xsl:value-of select="substring-after(./@no,'-')" /> BÖLÜM</h4>
-          <p class="başlık"><xsl:value-of select="./@başlık" /></p>
-          <xsl:for-each select="./Madde">
-            <p class="mdbaşlık"><xsl:value-of select="./@başlık" /></p>
-            <div><span class="kalın">MADDE <xsl:value-of select="./@no" />- </span>
-              <xsl:for-each select="./Atıf">
-                <span class="kalın">(<xsl:value-of select="./@tür" />: <xsl:value-of select="./@tarih" />-<xsl:value-of select="./@kanun" />/<xsl:value-of select="./@madde" /> md.) </span>
-              </xsl:for-each>
-              <xsl:for-each select="./Fıkra">
-                <xsl:for-each select="text()">
-                  <p><xsl:value-of select="." />--1</p>
-                </xsl:for-each>  
-              </xsl:for-each>
-
-            </div>
-          </xsl:for-each>
-        </xsl:for-each>
-      </xsl:for-each>
-
+      <xsl:apply-templates select="Kısım" />
     </body>
   </html>
+</xsl:template>
+
+<xsl:template match="Kısım">
+      <h4 class="ortala"><xsl:value-of select="substring-after(./@no,'-')" /> KISIM</h4>
+      <p class="başlık"><xsl:value-of select="./@başlık" /></p>
+      <xsl:apply-templates select="Bölüm" />
+</xsl:template>
+
+<xsl:template match="Bölüm">
+          <h4 class="ortala"><xsl:value-of select="substring-after(./@no,'-')" /> BÖLÜM</h4>
+          <p class="başlık"><xsl:value-of select="./@başlık" /></p>
+          <xsl:apply-templates select="Madde" />
+</xsl:template>
+
+<xsl:template match="Madde">
+
 </xsl:template>
 
 </xsl:stylesheet>
