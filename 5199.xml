@@ -301,6 +301,72 @@
           Öldürme işleminden sorumlu kişi ve kuruluşlar, hayvanın kesin olarak öldüğünden emin olunduktan sonra, hayvanın ölüsünü usulüne uygun olarak bertaraf etmek veya ettirmekle yükümlüdürler. Öldürme ve ötanazi işlemine ilişkin esas ve usuller Bakanlıkça çıkarılacak yönetmelikle belirlenir.
         </Fıkra>
       </Madde>
+      <Madde no="14" başlık="Yasaklar">
+        <Fıkra no="1">
+          Hayvanlarla ilgili yasaklar şunlardır:
+          <Bent no="a">
+            <Atıf tür="Değişik" tarih="9/7/2021" kanun="7332" madde="5" />
+            Hayvanlara kasıtlı olarak kötü davranmak, dövmek, aç ve susuz bırakmak, aşırı soğuğa ve sıcağa maruz bırakmak, bakımlarını ihmal etmek, fiziksel ve psikolojik acı çektirmek.
+          </Bent>
+          <Bent no="b">
+            Hayvanları, gücünü aştığı açıkça görülen fiillere zorlamak.
+          </Bent>
+          <Bent no="c">
+            <Atıf tür="Değişik" tarih="9/7/2021" kanun="7332" madde="5" />
+            Hayvan bakımı eğitimi almamış kişilerce ev hayvanı satmak.
+          </Bent>
+          <Bent no="d">
+            <Atıf tür="Değişik" tarih="9/7/2021" kanun="7332" madde="5" />
+            Ev hayvanlarını onaltı yaşından küçüklere satmak.
+          </Bent>
+          <Bent no="e">
+            <Atıf tür="Değişik" tarih="9/7/2021" kanun="7332" madde="5" />
+            Hayvanların kesin olarak öldüğü anlaşılmadan, vücutlarına tedavi maksatlı olmayan müdahalelerde bulunmak.
+          </Bent>
+          <Bent no="f">
+            Kesim hayvanları ve 4915 sayılı Kanun çerçevesinde avlanmasına ve özel üretim çiftliklerinde kesim hayvanı olarak üretimine izin verilen av hayvanları ile ticarete konu yabani hayvanlar dışındaki hayvanları, et ihtiyacı amacıyla kesip ya da öldürüp piyasaya sürmek.
+          </Bent>
+          <Bent no="g">
+            Kesim için yetiştirilmiş hayvanlar dışındaki hayvanları ödül, ikramiye ya da prim olarak dağıtmak.
+          </Bent>
+          <Bent no="h">
+            <Atıf tür="Değişik" tarih="30/7/2024" kanun="7527" madde="6" />
+            Kanunî ve tıbbî gerekçeler hariç hayvanlara ya da onların ana karnındaki yavrularına veya havyar üretimi hariç yumurtalarına zarar verebilecek sunî müdahaleler yapmak, yabancı maddeler vermek.
+          </Bent>
+          <Bent no="ı">
+            Hayvanları hasta, gebelik süresinin 2/3’ünü tamamlamış gebe ve yeni ana iken çalıştırmak, uygun olmayan koşullarda barındırmak.
+          </Bent>
+          <Bent no="j">
+            <Atıf tür="Değişik" tarih="9/7/2021" kanun="7332" madde="5" />
+            Hayvanlara cinsel saldırıda bulunmak veya tecavüz etmek.
+          </Bent>
+          <Bent no="k">
+            Sağlık nedenleri ile gerekli olmadıkça bir hayvana zor kullanarak yem yedirmek, acı, ıstırap ya da zarar veren yiyecekler ile alkollü içki, sigara, uyuşturucu ve bunun gibi bağımlılık yapan yiyecek veya içecekler vermek.
+          </Bent>
+          <Bent no="l">
+            <Atıf tür="Değişik" tarih="9/7/2021" kanun="7332" madde="5" />
+            Bakanlıkça belirlenen tehlike arz eden hayvanları üretmek, sahiplenmek, sahiplendirmek, barındırmak, beslemek, takas etmek, sergilemek, hediye etmek ve bunların ülkemize girişini, satışını ve reklamını yapmak.
+          </Bent>
+          <Bent no="m">
+            <Atıf tür="Ek" tarih="9/7/2021" kanun="7332" madde="5" />
+            Hayvanlara işkence yapmak veya acımasız ve zalimce muamelede bulunmak.
+          </Bent>
+          <Bent no="n">
+            <Atıf tür="Ek" tarih="9/7/2021" kanun="7332" madde="5" />
+            Ev hayvanını terk etmek.
+          </Bent>
+          <Bent no="o">
+            <Atıf tür="Değişik" tarih="30/7/2024" kanun="7527" madde="6" />
+            Yerel yönetimler adına toplanan sahipsiz hayvanları bakımevi dışında bir yere terk etmek veya bakımevinde barındırılan köpekleri bakımevi dışında bir yere bırakmak.
+          </Bent>
+        </Fıkra>
+      </Madde>
+    </Bölüm>
+  </Kısım>
+  <Kısım no="3-ÜÇÜNCÜ" başlık="Hayvan Koruma Yönetimi">
+    <Bölüm no="1-BİRİNCİ" başlık="Mahallî Hayvan Koruma Kurulları Teşkilât, Görev ve Sorumluluklar">
+      <Madde no="15" başlık="İl hayvanları koruma kurulu">
+      </Madde>
     </Bölüm>
   </Kısım>
 </Kanun>
