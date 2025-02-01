@@ -54,8 +54,12 @@
 </xsl:template>
 
 <xsl:template match="Madde">
-            <p class="mdbaşlık kaydır"><xsl:value-of select="@başlık" />&#160;&#160;<xsl:apply-templates select="Atıf" /></p>
-            <xsl:apply-templates select="Fıkra" />
+            <p class="mdbaşlık kaydır"><xsl:value-of select="@başlık" />&#160;&#160;<xsl:apply-templates select="Atıf[count(following-sibling::Fıkra)>0]" /></p>
+            <!-- Aşağıdaki Atıf madde Mülga olmuşsa, yukarıdaki Atıf madde başlığı Değiştiyse -->
+            <p class="asılı"><span class="kalın">MADDE <xsl:value-of select="@no" />- </span>
+              <xsl:apply-templates select="Fıkra[@no=1]|Atıf[count(following-sibling::Fıkra)=0]" />
+            </p>
+            <xsl:apply-templates select="Fıkra[@no>1]" />
 </xsl:template>
 
 <xsl:template match="Atıf">
@@ -63,8 +67,7 @@
 </xsl:template>
 
 <xsl:template match="Fıkra[@no=1]">
-  <p class="asılı"><span class="kalın">MADDE <xsl:value-of select="../@no" />- </span>(1) <xsl:apply-templates select="Atıf|text()[count(preceding-sibling::Bent)=0]" />
-  </p>
+  (1) <xsl:apply-templates select="Atıf|text()[count(preceding-sibling::Bent)=0]" />
   <xsl:apply-templates select="Bent" />
   <xsl:apply-templates select="text()[count(preceding-sibling::Bent)>0]" />
 </xsl:template>

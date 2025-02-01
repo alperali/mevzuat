@@ -366,7 +366,101 @@
   <Kısım no="3-ÜÇÜNCÜ" başlık="Hayvan Koruma Yönetimi">
     <Bölüm no="1-BİRİNCİ" başlık="Mahallî Hayvan Koruma Kurulları Teşkilât, Görev ve Sorumluluklar">
       <Madde no="15" başlık="İl hayvanları koruma kurulu">
+        <Fıkra no="1">
+          Her ilde il hayvanları koruma kurulu, valinin başkanlığında, sadece hayvanların korunması ve mevcut sorunlar ile çözümlerine yönelik olmak üzere toplanır.
+        </Fıkra>
+        <Fıkra no="2">
+          Bu toplantılara;
+          <Bent no="a">
+            Büyükşehir belediyesi olan illerde büyükşehir belediye başkanları, büyükşehire bağlı ilçe belediye başkanları, büyükşehir olmayan illerde belediye başkanları,
+          </Bent>
+          <Bent no="b">
+            <Atıf tür="Ek" tarih="9/7/2021" kanun="7332" madde="6" />
+            Doğa koruma ve milli parklar il şube müdürü,
+          </Bent>
+          <Bent no="c">
+            <Atıf tür="Ek" tarih="9/7/2021" kanun="7332" madde="6" />
+            Tarım ve orman il müdürü,
+          </Bent>
+          <Bent no="d">
+            <Atıf tür="Ek" tarih="9/7/2021" kanun="7332" madde="6" />
+            Çevre ve şehircilik il müdürü,
+          </Bent>
+          <Bent no="e">
+            İl sağlık müdürü,
+          </Bent>
+          <Bent no="f">
+            İl millî eğitim müdürü,
+          </Bent>
+          <Bent no="g">
+            İl müftüsü,
+          </Bent>
+          <Bent no="h">
+            Belediyelerin veteriner işleri müdürü,
+          </Bent>
+          <Bent no="ı">
+            Veteriner fakülteleri olan yerlerde fakülte temsilcisi,
+          </Bent>
+          <Bent no="j">
+            Münhasıran hayvanları koruma ile ilgili faaliyet gösteren gönüllü kuruluşlardan valilik tarafından seçilecek en çok iki temsilci,
+          </Bent>
+          <Bent no="k">
+            İl veya bölge veteriner hekimler odasından bir temsilci,
+          </Bent>
+          <Bent no="l">
+            <Atıf tür="Ek" tarih="9/7/2021" kanun="7332" madde="6" />
+            İl baro temsilcisi veya ildeki barolardan birer temsilci,
+          </Bent>
+          katılır.
+        </Fıkra>
+        <Fıkra no="3">
+          Kurul başkanı gerekli gördüğü durumlarda konuyla ilgili olarak diğer kurum ve kuruluşlardan yetkili isteyebilir.
+        </Fıkra>
+        <Fıkra no="4">
+          <Atıf tür="Değişik" tarih="9/7/2021" kanun="7332" madde="6" />
+          İl hayvan koruma kurulu sekretaryasını, doğa koruma ve milli parklar il şube müdürlüğü yürütür. Kurul, çalışmalarının sonucunu, önemli politika, strateji, uygulama, inceleme ve görüşleri Bakanlığa bildirir. İllerde temsilciliği bulunmayan kuruluş var ise il hayvan koruma kurulları diğer üyelerden oluşur.
+        </Fıkra>
+        <Fıkra no="5">
+          Kurul en geç üç ayda bir başkanın çağrısı üzerine toplanır.
+          <Atıf tür="Ek cümle" tarih="9/7/2021" kanun="7332" madde="6" />
+          Gerektiğinde olağanüstü toplantılar yapılabilir.
+        </Fıkra>
+        <Fıkra no="6">
+          İl hayvan koruma kurulunun çalışma esas ve usulleri Bakanlıkça çıkarılacak yönetmelikle belirlenir.
+        </Fıkra>
       </Madde>
+    </Bölüm>
+    <Bölüm no="2-İKİNCİ" başlık="Denetim">
+      <Atıf tür="Değişik" tarih="30/7/2024" kanun="7527" madde="15" />
+      <Madde no="17" başlık="Denetim">
+        <Fıkra no="1">
+          Bu Kanun hükümlerine uyulup uyulmadığını denetleme yetkisi Bakanlığa aittir. Gerektiğinde bu yetki Bakanlıkça mahallin en büyük mülkî amirine yetki devri suretiyle devredilebilir.
+        </Fıkra>
+        <Fıkra no="2">
+          Denetim elemanlarının nitelikleri ve denetime ilişkin usul ve esaslar ile kayıt ve izleme sistemi kurma, bildirim yükümlülüğü ile bunları verecekler hakkındaki usul ve esaslar Bakanlıkça çıkarılacak yönetmelikle belirlenir.
+        </Fıkra>
+        <Fıkra no="3">
+          <Atıf tür="Değişik" tarih="30/7/2024" kanun="7527" madde="15" />
+          Yerel yönetimler, sahipsiz hayvanların kayıt altına alınması ile ilgili işlemleri yapmakla yükümlüdürler.
+        </Fıkra>
+      </Madde>
+      <Madde no="18" başlık="Yerel hayvan koruma görevlilerinin sorumlulukları">
+        <Atıf tür="Mülga" tarih="30/7/2024" kanun="7527" madde="15" />
+      </Madde>
+    </Bölüm>
+    <Bölüm no="3-ÜÇÜNCÜ" başlık="Hayvanların Korunmasının Desteklenmesi">
+    </Bölüm>
+    <Bölüm no="4-DÖRDÜNCÜ" başlık="Diğer Hükümler">
+    </Bölüm>
+  </Kısım>
+  <Kısım no="4-DÖRDÜNCÜ" başlık="Cezai Hükümler">
+    <Bölüm no="1-BİRİNCİ" başlık="İdari Para Cezası Verme Yetkisi, Cezalar, Ödeme Süresi, Tahsil ve İtiraz">
+    </Bölüm>
+  </Kısım>
+  <Kısım no="5-BEŞİNCİ" başlık="Çeşitli, Son ve Geçici Hükümler">
+    <Bölüm no="1-BİRİNCİ" başlık="Çeşitli Hükümler">
+    </Bölüm>
+    <Bölüm no="2-İKİNCİ" başlık="Son ve Geçici Hükümler">
     </Bölüm>
   </Kısım>
 </Kanun>
