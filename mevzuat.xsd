@@ -62,6 +62,83 @@
   <!-- Bölüm içindeki Atıf türü Değişik ise bölüm başlığını değiştirene atıftır -->
   <!-- Fıkra ve Bent için değişim, ek, mülga o fıkra/bent içinde belirtilir -->
 
+  <xs:complexType name="türKısım">
+    <xs:sequence>
+      <xs:element name="Bölüm" maxOccurs="unbounded">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element name="Atıf" type="türAtıf" minOccurs="0" maxOccurs="9" />
+            <xs:element name="Madde" maxOccurs="unbounded">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="Atıf" type="türAtıf" minOccurs="0" maxOccurs="9" />
+                  <xs:element name="Fıkra" minOccurs="0" maxOccurs="unbounded">
+                    <xs:complexType mixed="true">
+                      <xs:sequence>
+                        <xs:element name="Atıf" type="türAtıf" minOccurs="0" maxOccurs="9" />
+                        <xs:element name="Bent" minOccurs="0" maxOccurs="unbounded">
+                          <xs:complexType mixed="true">
+                            <xs:sequence>
+                              <xs:element name="Atıf" type="türAtıf" minOccurs="0" maxOccurs="9" />
+                            </xs:sequence>
+                            <xs:attribute name="no" use="required">
+                              <xs:simpleType>
+                                <xs:restriction base="xs:string">
+                                  <!-- Aşağıdaki pattern "([a-zçığşüö])\1?" olmalıydı fakat XSD pattern'da back reference desteklemiyor,
+                                      o nedenle yönetmelikteki koşulu sağlayan en yakın pattern bu -->
+                                  <xs:pattern value="[a-zçığşüö][a-zçığşüö]?" />
+                                </xs:restriction>
+                              </xs:simpleType>
+                            </xs:attribute>
+                          </xs:complexType>
+                        </xs:element>
+                      </xs:sequence>
+                      <xs:attribute name="no" type="xs:positiveInteger" use="required" />
+                    </xs:complexType>
+                  </xs:element>
+                </xs:sequence>
+                <xs:attribute name="no" use="required">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:pattern value="[1-9][0-9]*(/[A-Z])?" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:attribute>
+                <xs:attribute name="başlık" type="xs:string"          use="required" />
+                <xs:attribute name="tür" default="">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:enumeration value="" />
+                      <xs:enumeration value="geçici" />
+                      <xs:enumeration value="ek" />
+                      <xs:enumeration value="mükerrer" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:attribute>
+              </xs:complexType>
+            </xs:element>     
+          </xs:sequence>
+          <xs:attribute name="no" use="required">
+            <xs:simpleType>
+              <xs:restriction base="xs:string">
+                <xs:pattern value="[0-9]+-[A-ZİŞĞÜÖÇ]+" />
+              </xs:restriction>
+            </xs:simpleType>
+          </xs:attribute>
+          <xs:attribute name="başlık" type="xs:string" use="required" /> 
+        </xs:complexType>
+      </xs:element>
+    </xs:sequence>
+    <xs:attribute name="no" use="required">
+      <xs:simpleType>
+        <xs:restriction base="xs:string">
+          <xs:pattern value="[0-9]+-[A-ZİŞĞÜÖÇ]+" />
+        </xs:restriction>
+      </xs:simpleType>
+    </xs:attribute>
+    <xs:attribute name="başlık" type="xs:string" use="required" />
+  </xs:complexType>
+  
   <xs:element name="Kanun">
     <xs:complexType>
       <xs:sequence>
@@ -90,85 +167,30 @@
             </xs:sequence>
           </xs:complexType>
         </xs:element>
-      <xs:element name="Kısım" maxOccurs="unbounded">
-        <xs:complexType>
-          <xs:sequence>
-            <xs:element name="Bölüm" maxOccurs="unbounded">
-              <xs:complexType>
-                <xs:sequence>
-                  <xs:element name="Atıf" type="türAtıf" minOccurs="0" maxOccurs="9" />
-                  <xs:element name="Madde" maxOccurs="unbounded">
-                    <xs:complexType>
-                      <xs:sequence>
-                        <xs:element name="Atıf" type="türAtıf" minOccurs="0" maxOccurs="9" />
-                        <xs:element name="Fıkra" minOccurs="0" maxOccurs="unbounded">
-                          <xs:complexType mixed="true">
-                            <xs:sequence>
-                              <xs:element name="Atıf" type="türAtıf" minOccurs="0" maxOccurs="9" />
-                              <xs:element name="Bent" minOccurs="0" maxOccurs="unbounded">
-                                <xs:complexType mixed="true">
-                                  <xs:sequence>
-                                    <xs:element name="Atıf" type="türAtıf" minOccurs="0" maxOccurs="9" />
-                                  </xs:sequence>
-                                  <xs:attribute name="no" use="required">
-                                    <xs:simpleType>
-                                      <xs:restriction base="xs:string">
-                                        <!-- Aşağıdaki pattern "([a-zçığşüö])\1?" olmalıydı fakat XSD pattern'da back reference desteklemiyor,
-                                             o nedenle yönetmelikteki koşulu sağlayan en yakın pattern bu -->
-                                        <xs:pattern value="[a-zçığşüö][a-zçığşüö]?" />
-                                      </xs:restriction>
-                                    </xs:simpleType>
-                                  </xs:attribute>
-                                </xs:complexType>
-                              </xs:element>
-                            </xs:sequence>
-                            <xs:attribute name="no" type="xs:positiveInteger" use="required" />
-                          </xs:complexType>
-                        </xs:element>
-                      </xs:sequence>
-                      <xs:attribute name="no" use="required">
-                        <xs:simpleType>
-                          <xs:restriction base="xs:string">
-                            <xs:pattern value="[1-9][0-9]*(/[A-Z])?" />
-                          </xs:restriction>
-                        </xs:simpleType>
-                      </xs:attribute>
-                      <xs:attribute name="başlık" type="xs:string"          use="required" />
-                      <xs:attribute name="tür" default="">
-                        <xs:simpleType>
-                          <xs:restriction base="xs:string">
-                            <xs:enumeration value="" />
-                            <xs:enumeration value="geçici" />
-                            <xs:enumeration value="ek" />
-                            <xs:enumeration value="mükerrer" />
-                          </xs:restriction>
-                        </xs:simpleType>
-                      </xs:attribute>
-                    </xs:complexType>
-                  </xs:element>     
-                </xs:sequence>
-                <xs:attribute name="no" use="required">
-                  <xs:simpleType>
-                    <xs:restriction base="xs:string">
-                      <xs:pattern value="[0-9]+-[A-ZİŞĞÜÖÇ]+" />
-                    </xs:restriction>
-                  </xs:simpleType>
-                </xs:attribute>
-                <xs:attribute name="başlık" type="xs:string" use="required" /> 
-              </xs:complexType>
-            </xs:element>
-          </xs:sequence>
-          <xs:attribute name="no" use="required">
-            <xs:simpleType>
-              <xs:restriction base="xs:string">
-                <xs:pattern value="[0-9]+-[A-ZİŞĞÜÖÇ]+" />
-              </xs:restriction>
-            </xs:simpleType>
-          </xs:attribute>
-          <xs:attribute name="başlık" type="xs:string" use="required" />
-        </xs:complexType>
-      </xs:element>
-      </xs:sequence>  
+
+        <xs:choice>
+        
+          <xs:element name="Kitap" maxOccurs="unbounded" minOccurs="0">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="Kısım" maxOccurs="unbounded" type="türKısım" />
+              </xs:sequence>
+              <xs:attribute name="no" use="required">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:pattern value="[0-9]+-[A-ZİŞĞÜÖÇ]+" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:attribute>
+              <xs:attribute name="başlık" type="xs:string" use="required" />
+            </xs:complexType>
+          </xs:element>
+
+          <xs:element name="Kısım" maxOccurs="unbounded" type="türKısım" />
+        
+        </xs:choice>
+      
+      </xs:sequence>
     </xs:complexType>
   </xs:element>
 
