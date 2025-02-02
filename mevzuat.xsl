@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 
+<!-- Mevzuat için klasik temaya denk XSL dönüşüm
+     A. Alper Atıcı, https://github.com/alperali/mevzuat  -->
+
 <xsl:output method="html" encoding="utf-8" />
 
 <xsl:template match="Kanun">
@@ -54,29 +57,51 @@
 </xsl:template>
 
 <xsl:template match="Madde">
-            <p class="mdbaşlık kaydır"><xsl:value-of select="@başlık" />&#160;&#160;<xsl:apply-templates select="Atıf[count(following-sibling::Fıkra)>0]" /></p>
-            <!-- Aşağıdaki Atıf madde Mülga olmuşsa, yukarıdaki Atıf madde başlığı Değiştiyse -->
-            <p class="asılı"><span class="kalın">MADDE <xsl:value-of select="@no" />- </span>
-              <xsl:apply-templates select="Fıkra[@no=1]|Atıf[count(following-sibling::Fıkra)=0]" />
+            <p class="mdbaşlık kaydır"><xsl:value-of select="@başlık" />&#160;&#160;<xsl:apply-templates select="Atıf[count(preceding-sibling::Fıkra)=0 and @tür='Değişik']" />
             </p>
+
+            <!-- Aşağıdaki Atıf madde Mülga olmuşsa veya @no/A gibi Ek madde ise, yukarıdaki Atıf madde başlığı Değiştiyse -->
+            
+            <xsl:choose>
+              <!-- Madde Mülga -->
+              <xsl:when test="Atıf[count(following-sibling::Fıkra)=0]">
+                <p class="asılı">
+                  <span class="kalın">MADDE <xsl:value-of select="@no" />- </span><xsl:apply-templates select="Atıf[count(following-sibling::Fıkra)=0]" />
+                </p>
+              </xsl:when>
+
+              <!-- Madde @no/A gibi Ek madde -->
+              <xsl:when test="Atıf[count(preceding-sibling::Fıkra)=0 and @tür='Ek']">
+                <p class="asılı">
+                  <span class="kalın">MADDE <xsl:value-of select="@no" />- </span><xsl:apply-templates select="Atıf[count(preceding-sibling::Fıkra)=0 and @tür='Ek']" />
+                </p>
+                <xsl:apply-templates select="Fıkra[@no=1]" />
+              </xsl:when>
+              
+              <!-- İlk Fıkra öncesi bir Atıf yoksa ilk Fıkranın yazılışı -->
+              <xsl:otherwise>
+                <p class="asılı">
+                  <span class="kalın">MADDE <xsl:value-of select="@no" />- </span>
+                  (1) <xsl:apply-templates select="Fıkra[@no=1]/Atıf | Fıkra[@no=1]/text()[count(preceding-sibling::Bent)=0]" />
+                  <xsl:apply-templates select="Fıkra[@no=1]/Bent" />
+                  <xsl:apply-templates select="Fıkra[@no=1]/text()[count(preceding-sibling::Bent)>0]" />
+                </p>
+              </xsl:otherwise>
+            </xsl:choose>
+
             <xsl:apply-templates select="Fıkra[@no>1]" />
+
 </xsl:template>
 
 <xsl:template match="Atıf">
   <span class="kalın">(<xsl:value-of select="@tür" />: <xsl:value-of select="@tarih" />-<xsl:value-of select="@kanun" />/<xsl:value-of select="@madde" /> md.) </span>
 </xsl:template>
 
-<xsl:template match="Fıkra[@no=1]">
-  (1) <xsl:apply-templates select="Atıf|text()[count(preceding-sibling::Bent)=0]" />
-  <xsl:apply-templates select="Bent" />
-  <xsl:apply-templates select="text()[count(preceding-sibling::Bent)>0]" />
-</xsl:template>
-
 <xsl:template match="text()[count(preceding-sibling::Bent)>0]">
   <p class="asılı"><xsl:value-of select="." /></p>
 </xsl:template>
 
-<xsl:template match="Fıkra[@no>1]">
+<xsl:template match="Fıkra">
   <p class="asılı">(<xsl:value-of select="@no" />) <xsl:apply-templates select="Atıf|text()[count(preceding-sibling::Bent)=0]" />
   </p>
   <xsl:apply-templates select="Bent" />

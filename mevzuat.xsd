@@ -125,7 +125,13 @@
                           </xs:complexType>
                         </xs:element>
                       </xs:sequence>
-                      <xs:attribute name="no"     type="xs:positiveInteger" use="required" />
+                      <xs:attribute name="no" use="required">
+                        <xs:simpleType>
+                          <xs:restriction base="xs:string">
+                            <xs:pattern value="[1-9][0-9]*(/[A-Z])?" />
+                          </xs:restriction>
+                        </xs:simpleType>
+                      </xs:attribute>
                       <xs:attribute name="başlık" type="xs:string"          use="required" />
                       <xs:attribute name="tür" default="">
                         <xs:simpleType>
