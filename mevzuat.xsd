@@ -58,6 +58,7 @@
   </xs:complexType>
 
   <!-- Madde içindeki Atıf türü Değişik ise madde başlığını değiştirene, Mülga ise maddeyi mülga edene atıftır -->
+  <!-- Madde içindeki Atıf türü Ek ise ve Madde no 23/A gibiyse maddeyi ekleyene atıftır -->
   <!-- Bölüm içindeki Atıf türü Değişik ise bölüm başlığını değiştirene atıftır -->
   <!-- Fıkra ve Bent için değişim, ek, mülga o fıkra/bent içinde belirtilir -->
 
@@ -139,6 +140,7 @@
                             <xs:enumeration value="" />
                             <xs:enumeration value="geçici" />
                             <xs:enumeration value="ek" />
+                            <xs:enumeration value="mükerrer" />
                           </xs:restriction>
                         </xs:simpleType>
                       </xs:attribute>
