@@ -10,10 +10,10 @@ XML şema tanımlaması (XSD) ve XSL dönüşümü (XSLT).
 
 '''
 
-* https://github.com/alperali/mevzuat/mevzuat.xsd[XML şema tanımı (XSD)]
-* https://github.com/alperali/mevzuat/mevzuat.xsl[XML dönüşüm (XSLT)]
+* https://alperali.github.io/mevzuat/mevzuat.xsd[XML şema tanımı (XSD)]
+* https://alperali.github.io/mevzuat/mevzuat.xsl[XML dönüşüm (XSLT)]
 * https://github.com/alperali/mevzuat/blob/ana/5199.xml[Örnek kanun (XML biçimli)]
-* https://github.com/alperali/mevzuat/5199.xml[Örnek kanun (yukarıdaki XSLT ile dönüştürülmüş)]
+* https://alperali.github.io/mevzuat/5199.xml[Örnek kanun (yukarıdaki XSLT ile dönüştürülmüş)]
 * https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=5199&MevzuatTur=1&MevzuatTertip=5[Örnek kanun (mevzuat resmi sitesindeki hali)]
 
 Şimdilik kanunlar için şema ve dönüşüm geliştirilmiştir.
