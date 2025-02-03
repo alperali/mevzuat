@@ -109,9 +109,9 @@
                   <xs:simpleType>
                     <xs:restriction base="xs:string">
                       <xs:enumeration value="" />
-                      <xs:enumeration value="geçici" />
-                      <xs:enumeration value="ek" />
-                      <xs:enumeration value="mükerrer" />
+                      <xs:enumeration value="GEÇİCİ" />
+                      <xs:enumeration value="EK" />
+                      <xs:enumeration value="MÜKERRER" />
                     </xs:restriction>
                   </xs:simpleType>
                 </xs:attribute>

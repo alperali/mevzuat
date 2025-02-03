@@ -67,14 +67,14 @@
               <!-- Madde Mülga -->
               <xsl:when test="Atıf[count(following-sibling::Fıkra)=0]">
                 <p class="asılı">
-                  <span class="kalın">MADDE <xsl:value-of select="@no" />- </span><xsl:apply-templates select="Atıf[count(following-sibling::Fıkra)=0]" />
+                  <span class="kalın"><xsl:if test="@tür"><xsl:value-of select="concat(@tür,' ')" /></xsl:if>MADDE <xsl:value-of select="@no" />- </span><xsl:apply-templates select="Atıf[count(following-sibling::Fıkra)=0]" />
                 </p>
               </xsl:when>
 
               <!-- Madde @no/A gibi Ek madde -->
               <xsl:when test="Atıf[count(preceding-sibling::Fıkra)=0 and @tür='Ek']">
                 <p class="asılı">
-                  <span class="kalın">MADDE <xsl:value-of select="@no" />- </span><xsl:apply-templates select="Atıf[count(preceding-sibling::Fıkra)=0 and @tür='Ek']" />
+                  <span class="kalın"><xsl:if test="@tür"><xsl:value-of select="concat(@tür,' ')" /></xsl:if>MADDE <xsl:value-of select="@no" />- </span><xsl:apply-templates select="Atıf[count(preceding-sibling::Fıkra)=0 and @tür='Ek']" />
                 </p>
                 <xsl:apply-templates select="Fıkra[@no=1]" />
               </xsl:when>
@@ -82,7 +82,7 @@
               <!-- İlk Fıkra öncesi bir Atıf yoksa ilk Fıkranın yazılışı -->
               <xsl:otherwise>
                 <p class="asılı">
-                  <span class="kalın">MADDE <xsl:value-of select="@no" />- </span>
+                  <span class="kalın"><xsl:if test="@tür"><xsl:value-of select="concat(@tür,' ')" /></xsl:if>MADDE <xsl:value-of select="@no" />- </span>
                   (1) <xsl:apply-templates select="Fıkra[@no=1]/Atıf | Fıkra[@no=1]/text()[count(preceding-sibling::Bent)=0]" />
                   <xsl:apply-templates select="Fıkra[@no=1]/Bent" />
                   <xsl:apply-templates select="Fıkra[@no=1]/text()[count(preceding-sibling::Bent)>0]" />

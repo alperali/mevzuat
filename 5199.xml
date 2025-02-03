@@ -621,6 +621,34 @@
           4915 sayılı Kara Avcılığı Kanunu, 5996 sayılı Kanun ile 1380 sayılı Su Ürünleri Kanunu hükümleri saklıdır.
         </Fıkra>
       </Madde>
+      <Madde tür="EK" no="1" başlık="Yerel yönetimlerin sorumluluğu">
+        <Atıf tür="Değişik" tarih="30/7/2024" kanun="7527" madde="13" />
+        <Atıf tür="Ek" tarih="9/7/2021" kanun="7332" madde="13" />
+        <Fıkra no="1">
+          <Atıf tür="Değişik" tarih="30/7/2024" kanun="7527" madde="13" />
+          Büyükşehir belediyeleri, il belediyeleri ve nüfusu yirmi beş bini aşan belediyeler, sahipsiz veya güçten düşmüş ya da tehlike arz eden hayvanların korunması ve sahiplendirilinceye kadar bakımının yapılması ile rehabilitasyonunun sağlanması amacıyla hayvan bakımevleri kurar.
+        </Fıkra>
+        <Fıkra no="2">
+          <Atıf tür="Değişik" tarih="30/7/2024" kanun="7527" madde="13" />
+          Birinci fıkrada belirtilen hayvanlar, ilgili belediyeler tarafından hayvan bakımevine götürülür. Hayvan bakımevi kurma zorunluluğu olmayan belediyeler ile il özel idareleri ise sorumluluk alanındaki bu hayvanları en yakın hayvan bakımevine götürür. Bakımevlerine alınan hayvanlar Bakanlık veri sistemine kaydedilir. Rehabilite edilen köpekler, sahiplendirilinceye kadar hayvan bakımevlerinde barındırılır.
+        </Fıkra>
+        <Fıkra no="3">
+          <Atıf tür="Değişik" tarih="30/7/2024" kanun="7527" madde="13" />
+          Büyükşehir belediyeleri, il belediyeleri ve nüfusu yirmi beş bini aşan belediyeler bakımından, geçici 4 üncü maddenin ikinci fıkrasında belirtilen kaynağı ayırmayan belediye başkanı ve meclis üyeleri ile ayrılan kaynağı hayvan bakımevi kurmak, sahipsiz hayvanları toplamak, rehabilite etmek veya sahiplendirilinceye kadar bakmak için sarf etmeyen ya da bu kaynağı başka amaçlar için sarf eden belediye başkanı ve belediye yetkililerine altı aydan iki yıla kadar hapis cezası verilir.
+        </Fıkra>
+      </Madde>
+      <Madde tür="EK" no="2" başlık="">
+        <Atıf tür="Ek" tarih="9/7/2021" kanun="7332" madde="14" />
+        <Fıkra no="1">
+          Bu maddenin yürürlüğe girdiği tarihten sonra hayvanların kullanıldığı kara ve su sirkleri ile yunus parklarının kurulması yasaktır.
+        </Fıkra>
+        <Fıkra no="3">
+          Mevcut işletmeler, herhangi bir nedenle eksilen hayvan sayısını tamamlama ya da artırma, yeni şube açma gibi yollarla kapasite artırımına gidemez, üretim yapamaz, Bakanlığın izni olmadan işletme hakkını devredemez, on yılın sonunda faaliyetine son verir. Bu işletmelerin hayvanların etolojisine uygun olarak faaliyet göstermesini sağlayacak kriterler, bu maddenin yürürlüğe girdiği tarihten itibaren altı ay içinde Bakanlık tarafından çıkarılacak yönetmelikle belirlenir.
+        </Fıkra>
+        <Fıkra no="4">
+          Bu maddede belirtilen yasaklara aykırı davrananlara hayvan başına yirmi beş bin Türk lirası idarî para cezası verilir.
+        </Fıkra>
+      </Madde>
     </Bölüm>
   </Kısım>
 </Kanun>
