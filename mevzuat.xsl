@@ -57,10 +57,8 @@
 </xsl:template>
 
 <xsl:template match="Madde">
-          <xsl:if test="@başlık != '' ">  <!-- Geçici/Ek/Mükerrer maddelerde başlık olmayabilir -->
             <p class="mdbaşlık kaydır"><xsl:value-of select="@başlık" />&#160;&#160;<xsl:apply-templates select="Atıf[count(preceding-sibling::Fıkra)=0 and @tür='Değişik']" />
             </p>
-          </xsl:if>
             <!-- Aşağıdaki Atıf madde Mülga olmuşsa veya @no/A gibi Ek madde ise, yukarıdaki Atıf madde başlığı Değiştiyse -->
             
             <xsl:choose>
