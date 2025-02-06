@@ -60,33 +60,11 @@
             <p class="mdbaşlık kaydır"><xsl:value-of select="@başlık" />&#160;&#160;<xsl:apply-templates select="Atıf[@tür='Değişik başlık']" />
             </p>
             
-            <xsl:choose>
-              <xsl:when test="Atıf[@tür='Mülga']">
-                <p class="asılı">
-                  <span class="kalın"><xsl:if test="@tür"><xsl:value-of select="concat(@tür,' ')" /></xsl:if>MADDE <xsl:value-of select="@no" />- </span><xsl:apply-templates select="Atıf[@tür='Mülga']" />
-                </p>
-              </xsl:when>
-
-              <xsl:when test="Atıf[@tür='Ek']">
-                <p class="asılı">
-                  <span class="kalın"><xsl:if test="@tür"><xsl:value-of select="concat(@tür,' ')" /></xsl:if>MADDE <xsl:value-of select="@no" />- </span><xsl:apply-templates select="Atıf[@tür='Ek']" />
-                </p>
-                <xsl:apply-templates select="Fıkra[@no=1]" />
-              </xsl:when>
+            <p class="asılı">
+              <span class="kalın"><xsl:if test="@tür"><xsl:value-of select="concat(@tür,' ')" /></xsl:if>MADDE <xsl:value-of select="@no" />- </span><xsl:apply-templates select="Atıf" />
+            </p>
+            <xsl:apply-templates select="Fıkra" />
               
-              <!-- İlk Fıkra öncesi bir Atıf yoksa ilk Fıkranın yazılışı -->
-              <xsl:otherwise>
-                <p class="asılı">
-                  <span class="kalın"><xsl:if test="@tür"><xsl:value-of select="concat(@tür,' ')" /></xsl:if>MADDE <xsl:value-of select="@no" />- </span>
-                  (1) <xsl:apply-templates select="Fıkra[@no=1]/Atıf | Fıkra[@no=1]/text()[count(preceding-sibling::Bent)=0]" />
-                  <xsl:apply-templates select="Fıkra[@no=1]/Bent" />
-                  <xsl:apply-templates select="Fıkra[@no=1]/text()[count(preceding-sibling::Bent)>0]" />
-                </p>
-              </xsl:otherwise>
-            </xsl:choose>
-
-            <xsl:apply-templates select="Fıkra[@no>1]" />
-
 </xsl:template>
 
 <xsl:template match="Atıf">
