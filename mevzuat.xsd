@@ -139,60 +139,77 @@
     </xs:attribute>
     <xs:attribute name="başlık" type="xs:string" use="required" />
   </xs:complexType>
-  
-  <xs:element name="Kanun">
-    <xs:complexType>
-      <xs:sequence>
-        <xs:element name="No"     type="xs:positiveInteger" />
-        <xs:element name="Başlık" type="xs:string" />
-        <xs:element name="Tarih"  type="türTarih" />
-        <xs:element name="ResmiGazete">
-          <xs:complexType>
-            <xs:sequence>
-              <xs:element name="Tarih" type="türTarih" />
-              <xs:element name="Sayı">
+
+<xs:element name="mevzuat">
+  <xs:complexType>
+    <xs:sequence>
+
+      <xs:element name="Kanun">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element name="No"     type="xs:positiveInteger" />
+            <xs:element name="Başlık" type="xs:string" />
+            <xs:element name="Tarih"  type="türTarih" />
+            <xs:element name="ResmiGazete">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="Tarih" type="türTarih" />
+                  <xs:element name="Sayı">
+                    <xs:complexType>
+                      <xs:simpleContent>
+                        <xs:extension base="xs:positiveInteger">
+                          <xs:attribute name="mükerrer" type="xs:string" default="" />
+                        </xs:extension>
+                      </xs:simpleContent>
+                    </xs:complexType>
+                  </xs:element>
+                  <xs:element name="Düstur">
+                    <xs:complexType>
+                      <xs:attribute name="tertip" type="xs:positiveInteger" use="required" />
+                      <xs:attribute name="cilt"   type="xs:positiveInteger" use="required" />
+                    </xs:complexType>
+                  </xs:element>
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+
+            <xs:choice>
+            
+              <xs:element name="Kitap" maxOccurs="unbounded" minOccurs="0">
                 <xs:complexType>
-                  <xs:simpleContent>
-                    <xs:extension base="xs:positiveInteger">
-                      <xs:attribute name="mükerrer" type="xs:string" default="" />
-                    </xs:extension>
-                  </xs:simpleContent>
+                  <xs:sequence>
+                    <xs:element name="Kısım" maxOccurs="unbounded" type="türKısım" />
+                  </xs:sequence>
+                  <xs:attribute name="no" use="required">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:pattern value="[0-9]+-[A-ZİŞĞÜÖÇ]+" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:attribute>
+                  <xs:attribute name="başlık" type="xs:string" use="required" />
                 </xs:complexType>
               </xs:element>
-              <xs:element name="Düstur">
-                <xs:complexType>
-                  <xs:attribute name="tertip" type="xs:positiveInteger" use="required" />
-                  <xs:attribute name="cilt"   type="xs:positiveInteger" use="required" />
-                </xs:complexType>
-              </xs:element>
-            </xs:sequence>
-          </xs:complexType>
-        </xs:element>
 
-        <xs:choice>
-        
-          <xs:element name="Kitap" maxOccurs="unbounded" minOccurs="0">
-            <xs:complexType>
-              <xs:sequence>
-                <xs:element name="Kısım" maxOccurs="unbounded" type="türKısım" />
-              </xs:sequence>
-              <xs:attribute name="no" use="required">
-                <xs:simpleType>
-                  <xs:restriction base="xs:string">
-                    <xs:pattern value="[0-9]+-[A-ZİŞĞÜÖÇ]+" />
-                  </xs:restriction>
-                </xs:simpleType>
-              </xs:attribute>
-              <xs:attribute name="başlık" type="xs:string" use="required" />
-            </xs:complexType>
-          </xs:element>
+              <xs:element name="Kısım" maxOccurs="unbounded" type="türKısım" />
+            
+            </xs:choice>
+          
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
 
-          <xs:element name="Kısım" maxOccurs="unbounded" type="türKısım" />
-        
-        </xs:choice>
-      
-      </xs:sequence>
-    </xs:complexType>
-  </xs:element>
+      <xs:element name="Ref" minOccurs="0" maxOccurs="unbounded">
+        <xs:complexType>
+          <xs:simpleContent>
+            <xs:extension base="xs:string">
+              <xs:attribute name="no" type="xs:string" />
+            </xs:extension>
+          </xs:simpleContent>
+        </xs:complexType>
+      </xs:element>
 
+    </xs:sequence>
+  </xs:complexType>
+</xs:element>
 </xs:schema>

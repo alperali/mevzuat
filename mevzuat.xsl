@@ -61,7 +61,7 @@
             </p>
             
             <p class="asılı">
-              <span class="kalın"><xsl:if test="@tür"><xsl:value-of select="concat(@tür,' ')" /></xsl:if>MADDE <xsl:value-of select="@no" />- </span><xsl:apply-templates select="Atıf" />
+              <span class="kalın"><xsl:if test="@tür"><xsl:value-of select="concat(@tür,' ')" /></xsl:if>MADDE <xsl:value-of select="@no" />- </span><xsl:apply-templates select="Atıf[@tür != 'Değişik başlık']" />
             </p>
             <xsl:apply-templates select="Fıkra" />
               
