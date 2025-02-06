@@ -57,22 +57,19 @@
 </xsl:template>
 
 <xsl:template match="Madde">
-            <p class="mdbaşlık kaydır"><xsl:value-of select="@başlık" />&#160;&#160;<xsl:apply-templates select="Atıf[count(preceding-sibling::Fıkra)=0 and @tür='Değişik']" />
+            <p class="mdbaşlık kaydır"><xsl:value-of select="@başlık" />&#160;&#160;<xsl:apply-templates select="Atıf[@tür='Değişik başlık']" />
             </p>
-            <!-- Aşağıdaki Atıf madde Mülga olmuşsa veya @no/A gibi Ek madde ise, yukarıdaki Atıf madde başlığı Değiştiyse -->
             
             <xsl:choose>
-              <!-- Madde Mülga -->
-              <xsl:when test="Atıf[count(following-sibling::Fıkra)=0]">
+              <xsl:when test="Atıf[@tür='Mülga']">
                 <p class="asılı">
-                  <span class="kalın"><xsl:if test="@tür"><xsl:value-of select="concat(@tür,' ')" /></xsl:if>MADDE <xsl:value-of select="@no" />- </span><xsl:apply-templates select="Atıf[count(following-sibling::Fıkra)=0]" />
+                  <span class="kalın"><xsl:if test="@tür"><xsl:value-of select="concat(@tür,' ')" /></xsl:if>MADDE <xsl:value-of select="@no" />- </span><xsl:apply-templates select="Atıf[@tür='Mülga']" />
                 </p>
               </xsl:when>
 
-              <!-- Madde @no/A gibi Ek madde -->
-              <xsl:when test="Atıf[count(preceding-sibling::Fıkra)=0 and @tür='Ek']">
+              <xsl:when test="Atıf[@tür='Ek']">
                 <p class="asılı">
-                  <span class="kalın"><xsl:if test="@tür"><xsl:value-of select="concat(@tür,' ')" /></xsl:if>MADDE <xsl:value-of select="@no" />- </span><xsl:apply-templates select="Atıf[count(preceding-sibling::Fıkra)=0 and @tür='Ek']" />
+                  <span class="kalın"><xsl:if test="@tür"><xsl:value-of select="concat(@tür,' ')" /></xsl:if>MADDE <xsl:value-of select="@no" />- </span><xsl:apply-templates select="Atıf[@tür='Ek']" />
                 </p>
                 <xsl:apply-templates select="Fıkra[@no=1]" />
               </xsl:when>

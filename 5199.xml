@@ -284,7 +284,7 @@
         </Fıkra>
       </Madde>
       <Madde no="13" başlık="Hayvanların ötanazisi">
-        <Atıf tür="Değişik" tarih="30/7/2024" kanun="7527" madde="5" />
+        <Atıf tür="Değişik başlık" tarih="30/7/2024" kanun="7527" madde="5" />
         <Fıkra no="1">
           <Atıf tür="Ek" tarih="30/7/2024" kanun="7527" madde="5" />
           Bakımevine alınan köpeklerden; insan ve hayvanların hayatı ve sağlığı için tehlike teşkil eden ve olumsuz davranışları kontrol edilemeyen, bulaşıcı veya tedavi edilemeyen hastalığı bulunan ya da sahiplenilmesi yasak olanlara 11/6/2010 tarihli ve 5996 sayılı Veteriner Hizmetleri, Bitki Sağlığı, Gıda ve Yem Kanununun 9 uncu maddesinin üçüncü fıkrasında belirtilen tedbir uygulanır.
@@ -429,6 +429,42 @@
           İl hayvan koruma kurulunun çalışma esas ve usulleri Bakanlıkça çıkarılacak yönetmelikle belirlenir.
         </Fıkra>
       </Madde>
+      <Madde no="16" başlık="İl hayvanları koruma kurulunun görevleri">
+        <Fıkra no="1">
+          Hayvanları koruma kurulu münhasıran hayvanların korunması, sorunların tespiti ve çözümlerini karara bağlamak üzere; av ve yaban hayvanlarının ve yaşama alanlarının korunması ve avcılığın düzenlenmesi hususlarında alınmış olan Merkez Av Komisyonu kararlarını göz önünde bulundurarak;
+          <Bent no="a">
+            Hayvanların korunması ve kullanılmasında onların yasal temsilciliği niteliği ile bu Kanunda belirtilen görevleri yerine getirmek,
+          </Bent>
+          <Bent no="b">
+            <Atıf tür="Değişik" tarih="30/7/2024" kanun="7527" madde="7" />
+            İl sınırları içinde hayvanların korunmasına ilişkin ve sahipsiz hayvanlardan kaynaklı sorunları belirleyip, sorunların çözüm tekliflerini içeren yıllık, beş yıllık ve on yıllık plan ve projeler yapmak, yıllık hedef raporları hazırlayıp Bakanlığın uygun görüşüne sunmak, Bakanlığın olumlu görüşünü alarak insan, hayvan ve çevre sağlığına ilişkin her türlü önlemi almak,
+          </Bent>
+          <Bent no="c">
+            Hazırlanan uygulama programlarının uygulanmasını sağlamak ve sonuçtan Bakanlığa bilgi vermek,
+          </Bent>
+          <Bent no="d">
+            Hayvanların korunması ile ilgili olarak çeşitli kişi, kurum ve kuruluşların il düzeyindeki faaliyetlerini izlemek, yönlendirmek ve bu konuda gerekli eşgüdümü sağlamak,
+          </Bent>
+          <Bent no="e">
+            <Atıf tür="Değişik" tarih="9/7/2021" kanun="7332" madde="7" />
+            İlde kurulacak olan hayvan bakımevleri ve hayvan hastanelerini desteklemek, geliştirmek, denetlemek ve gerekli önlemleri almak,
+          </Bent>
+          <Bent no="f">
+            <Atıf tür="Mülga" tarih="30/7/2024" kanun="7527" madde="7" />
+          </Bent>
+          <Bent no="g">
+            Hayvan sevgisi, korunması ve yaşatılması ile ilgili eğitici faaliyetler düzenlemek,
+          </Bent>
+          <Bent no="h">
+            <Atıf tür="Ek" tarih="9/7/2021" kanun="7332" madde="7" />
+            Kanunda belirtilen faaliyet ve görevleri yerel yönetimler ve tarım ve orman il müdürlükleri ile eşgüdüm sağlayarak yaptırmak,
+          </Bent>
+          <Bent no="ı">
+            Bu Kanuna göre çıkarılacak mevzuatla verilecek görevleri yapmak,
+          </Bent>
+          ile görevli ve yükümlüdür.
+        </Fıkra>
+      </Madde>
     </Bölüm>
     <Bölüm no="2-İKİNCİ" başlık="Denetim">
       <Atıf tür="Değişik" tarih="30/7/2024" kanun="7527" madde="15" />
@@ -477,7 +513,7 @@
         </Fıkra>
       </Madde>
       <Madde no="22" başlık="Hayvanat bahçeleri ve doğal yaşam parkları">
-        <Atıf tür="Değişik" tarih="9/7/2021" kanun="7332" madde="10" />
+        <Atıf tür="Değişik başlık" tarih="9/7/2021" kanun="7332" madde="10" />
         <Fıkra no="1">
           <Atıf tür="Değişik" tarih="9/7/2021" kanun="7332" madde="10" />
           İşletme sahipleri ve belediyeler hayvanat bahçelerini, doğal yaşama ortamına en uygun şekilde tanzim etmekle ve ettirmekle yükümlüdürler.
@@ -516,7 +552,7 @@
         <Atıf tür="Mülga" tarih="23/1/2008" kanun="5728" madde="578" />
       </Madde>
       <Madde no="28" başlık="İdarî para cezaları">
-        <Atıf tür="Değişik" tarih="23/1/2008" kanun="5728" madde="553" />
+        <Atıf tür="Değişik başlık" tarih="23/1/2008" kanun="5728" madde="553" />
         <Fıkra no="1">
           Bu Kanun hükümlerine aykırı davrananlara aşağıdaki idarî para cezaları verilir:
           <Bent no="a">
@@ -622,7 +658,7 @@
         </Fıkra>
       </Madde>
       <Madde tür="EK" no="1" başlık="Yerel yönetimlerin sorumluluğu">
-        <Atıf tür="Değişik" tarih="30/7/2024" kanun="7527" madde="13" />
+        <Atıf tür="Değişik başlık" tarih="30/7/2024" kanun="7527" madde="13" />
         <Atıf tür="Ek" tarih="9/7/2021" kanun="7332" madde="13" />
         <Fıkra no="1">
           <Atıf tür="Değişik" tarih="30/7/2024" kanun="7527" madde="13" />
@@ -709,3 +745,220 @@
     </Bölüm>
   </Kısım>
 </Kanun>
+
+<Ref no="7332/1">
+24/6/2004 tarihli ve 5199 sayılı Hayvanları Koruma Kanununun 3 üncü maddesinin birinci fıkrasının (ı) ve (k) bentleri aşağıdaki şekilde, (o) bendinde yer alan “Çevre” ibaresi “Tarım” şeklinde değiştirilmiş, fıkraya aşağıdaki (p) bendi eklenmiş ve (j) bendinde yer alan “ve süs” ibaresi madde metninden çıkarılmıştır.
+
+“ı) Ev hayvanı: Gerçek veya tüzel kişiler tarafından özellikle evde, iş yerlerinde ya da arazisinde özel ilgi ve refakat amacıyla muhafaza edilen, bakımı ve sorumluluğu sahiplerince üstlenilen her türlü hayvanı,”
+
+“k) Hayvan bakımevi: Bakanlıktan izin alınmak suretiyle kurulan ve hayvanların rehabilite edileceği bir tesisi,”
+
+“p) Rehabilitasyon: Sahipsiz hayvanların tedavi ve parazit mücadelesinin yapılmasını, aşılanmasını, kısırlaştırılmasını ve dijital kimliklendirme yöntemleriyle işaretlenmesini,”
+</Ref>
+
+<Ref no="7332/2">
+5199 sayılı Kanunun 4 üncü maddesinin birinci fıkrasının (j) bendi ve (k) bendinin ikinci cümlesi aşağıdaki şekilde değiştirilmiş ve (k) bendine aşağıdaki cümle eklenmiştir.
+
+“j) Yerel yönetimler, gönüllü kuruluşlarla iş birliği içerisinde, sahipsiz ve güçten düşmüş hayvanların korunması için hayvan bakımevleri kurarak onların bakımlarını ve tedavilerini sağlar ve eğitim çalışmaları yapar. Ayrıca yerel yönetimler, ilgili karar organının uygun görmesi halinde hayvan hastanesi kurar.”
+
+“Kedi ve köpek sahipleri, hayvanlarını dijital kimliklendirme yöntemleriyle kayıt altına aldırmakla yükümlüdürler.”
+
+“Dijital kimliklendirme yöntemlerine ilişkin usul ve esaslar Bakanlıkça yürürlüğe konulacak yönetmelikle belirlenir.”
+</Ref>
+
+<Ref no="7332/3">
+5199 sayılı Kanunun 5 inci maddesinin birinci fıkrasında yer alan “bakımının gerektirdiği yaygın eğitim programına katılarak” ibaresi, üçüncü ve beşinci fıkralarında yer alan “ve süs” ibareleri ile beşinci fıkrasında yer alan “bilhassa ev ve bahçesi içerisinde” ibaresi madde metninden çıkarılmış, dördüncü fıkrası aşağıdaki şekilde değiştirilmiş, altıncı ve yedinci fıkraları yürürlükten kaldırılmıştır.
+
+“Ev hayvanı ve kontrollü hayvanları bulundurma ve sahiplenme şartları, hayvan bakımı ve korunması konularında verilecek eğitim ile ilgili usul ve esaslar ile sahiplenilerek bakılan hayvanların çevreye verecekleri zarar ve rahatsızlıkları önleyici tedbirler, Bakanlıkça çıkarılacak yönetmelikle belirlenir.”
+</Ref>
+
+<Ref no="7332/4">
+5199 sayılı Kanunun 10 uncu maddesinin birinci fıkrasına aşağıdaki cümle eklenmiş, ikinci fıkrasında yer alan “Tarım ve Köyişleri Bakanlığınca” ibaresi “Bakanlıkça” şeklinde, dördüncü fıkrasında yer alan “Ev ve süs hayvanlarının üretimini ve ticaretini yapanlar, annenin ve yavrularının” ibaresi “Ev hayvanlarının üretimini ve ticaretini yapanlar, hayvanların” şeklinde, yedinci fıkrasında yer alan “Bakanlığın görüşü alınarak Tarım ve Köyişleri Bakanlığınca” ibaresi “Bakanlıkça” şeklinde değiştirilmiştir.
+
+“Ev hayvanı satış yerlerinde kedi ve köpek bulundurulamaz, ancak buralarda Bakanlıkça izin verilen ev hayvanı üretim yerlerindeki kedi ve köpeklerin satışı yapılabilir.”
+</Ref>
+
+<Ref no="7332/5">
+5199 sayılı Kanunun 14 üncü maddesinin birinci fıkrasının (a) bendinde yer alan “acımasız ve zalimce işlem yapmak,” ibaresi ve (c) ve (d) bentlerinde yer alan “ve süs” ibareleri madde metninden çıkarılmış, (e) bendine “vücutlarına” ibaresinden sonra gelmek üzere “tedavi maksatlı olmayan” ibaresi eklenmiş, (j) ve (l) bentleri aşağıdaki şekilde değiştirilmiş ve fıkraya aşağıdaki bentler eklenmiştir.
+
+“j) Hayvanlara cinsel saldırıda bulunmak veya tecavüz etmek.”
+
+“l) Bakanlıkça belirlenen tehlike arz eden hayvanları üretmek, sahiplenmek, sahiplendirmek, barındırmak, beslemek, takas etmek, sergilemek, hediye etmek ve bunların ülkemize girişini, satışını ve reklamını yapmak.”
+
+“m) Hayvanlara işkence yapmak veya acımasız ve zalimce muamelede bulunmak.
+
+n) Ev hayvanını terk etmek.”
+</Ref>
+
+<Ref no="7332/6">
+5199 sayılı Kanunun 15 inci maddesinin ikinci fıkrasının (b) ve (c) bentleri aşağıdaki şekilde değiştirilmiş, (c) bendinden sonra gelmek üzere aşağıdaki bent eklenmiş ve diğer bentler buna göre teselsül ettirilmiş, fıkranın mevcut (ı) bendinde yer alan “takdiri ile” ibaresi “tarafından” şeklinde değiştirilmiş ve fıkraya aşağıdaki bent eklenmiş, dördüncü fıkrasında yer alan “il çevre ve orman” ibaresi “doğa koruma ve milli parklar il şube” şeklinde, fıkranın son cümlesi aşağıdaki şekilde değiştirilmiş ve fıkraya aşağıdaki cümle eklenmiştir.
+
+“b) Doğa koruma ve milli parklar il şube müdürü,
+
+c) Tarım ve orman il müdürü,”
+
+“d) Çevre ve şehircilik il müdürü,”
+
+“1) İl baro temsilcisi veya ildeki barolardan birer temsilci,”
+
+“Kurul en geç üç ayda bir başkanın çağrısı üzerine toplanır.”
+
+“Gerektiğinde olağanüstü toplantılar yapılabilir.”
+</Ref>
+
+<Ref no="7332/7">
+5199 sayılı Kanunun 16 ncı maddesinin birinci fıkrasının (e) bendine “geliştirmek” ibaresinden sonra gelmek üzere “, denetlemek” ibaresi ve fıkraya (g) bendinden sonra gelmek üzere aşağıdaki bent eklenmiş, diğer bent buna göre (ı) bendi olarak teselsül ettirilmiştir.
+
+“h) Kanunda belirtilen faaliyet ve görevleri yerel yönetimler ve tarım ve orman il müdürlükleri ile eşgüdüm sağlayarak yaptırmak,”
+</Ref>
+
+<Ref no="7332/8">
+5199 sayılı Kanunun 19 uncu maddesinin birinci fıkrasında yer alan “Ev ve süs hayvanlarının” ibaresi “Hayvanların” şeklinde değiştirilmiş, fıkraya “kurum ve kuruluşlara” ibaresinden sonra gelmek üzere “teşvik veya” ibaresi ve “esas ve usuller,” ibaresinden sonra gelmek üzere “Hazine ve” ibaresi ile maddeye aşağıdaki fıkra eklenmiştir.
+
+“Birinci fıkra kapsamındaki faaliyetlerde kullanılmak üzere, gerçek ve tüzel kişilerce ayni veya nakdî bağış Bakanlığa ve yerel yönetimlere yapılabilir.”
+</Ref>
+
+<Ref no="7332/9">
+5199 sayılı Kanunun 20 nci maddesine aşağıdaki fıkra eklenmiştir.
+
+“Bu madde hakkında 15/2/2011 tarihli ve 6112 sayılı Radyo ve Televizyonların Kuruluş ve Yayın Hizmetleri Hakkında Kanunun 48 inci maddesinin ikinci fıkrası hükmü uygulanmaz.”
+</Ref>
+
+<Ref no="7332/10">
+5199 sayılı Kanunun 22 nci maddesinin başlığı “Hayvanat bahçeleri ve doğal yaşam parkları” şeklinde değiştirilmiş, maddenin birinci fıkrasının ikinci cümlesi yürürlükten kaldırılmış ve maddeye aşağıdaki fıkralar eklenmiştir.
+
+“Gerçek veya tüzel kişiler, hayvanların etolojisine ve habitatına uygun, serbest dolaşımlarına imkan sağlayan doğal yaşam parkları kurabilir.
+
+Hayvanat bahçeleri ile doğal yaşam parklarının kuruluşu ile çalışma usul ve esasları Bakanlıkça çıkarılacak yönetmelikle belirlenir.”
+</Ref>
+
+<Ref no="7332/11">
+
+</Ref>
+
+<Ref no="7332/12">
+5199 sayılı Kanuna 28 inci maddesinden sonra gelmek üzere aşağıdaki madde eklenmiştir.
+
+“Adli cezalar
+
+MADDE 28/A- Nesli yok olma tehlikesi altında olan bir hayvanı öldüren kişi bir yıldan beş yıla kadar hapis cezası; bir hayvan neslini yok eden kişi beş yıldan on yıla kadar hapis cezası ile cezalandırılır.
+
+12 nci madde kapsamındaki hayvan kesimleri ile 13 üncü maddenin birinci fıkrasında belirtilen hususlar dışında bir ev hayvanını veya evcil hayvanı kasten öldüren kişi altı aydan dört yıla kadar hapis cezası ile cezalandırılır.
+
+Hayvanlara cinsel saldırıda bulunan veya tecavüz eden kişi altı aydan üç yıla kadar hapis ve yüz günden az olmamak üzere adli para cezası ile cezalandırılır.
+
+14 üncü maddenin birinci fıkrasının (m) bendinde düzenlenen yasağa aykırı davranmak suretiyle bir ev hayvanına veya evcil hayvana işkence eden veya acımasız ve zalimce muamelede bulunan kişi altı aydan üç yıla kadar hapis cezası ile cezalandırılır.
+
+11 inci maddenin ikinci fıkrasının ikinci cümlesi saklı kalmak üzere, hayvanları dövüştüren kişi üç aydan iki yıla kadar hapis veya adli para cezası ile cezalandırılır.
+
+Maddede düzenlenen suçların birden fazla hayvana karşı aynı anda işlenmesi durumunda verilecek ceza yarı oranında artırılır.
+
+Maddede düzenlenen suçların veteriner hekim, veteriner sağlık teknisyeni, hayvan koruma gönüllüsü, hayvan koruma derneği üyeleri, hayvan koruma vakfı üyeleri veya hayvanlara bakmak yahut onları korumakla görevlendirilen kişiler tarafından işlenmesi durumunda verilecek ceza yarı oranında artırılır.
+
+Sahibi tarafından işlenen suçlar da dahil olmak üzere bu maddede belirtilen suçların işlenmesi halinde soruşturma yapılması Tarım ve Orman Bakanlığının il veya ilçe müdürlükleri tarafından Cumhuriyet başsavcılığına yazılı başvuruda bulunulmasına bağlıdır. Bu başvuru muhakeme şartı niteliğindedir. Suçüstü halinde ise soruşturma genel hükümlere göre yapılır. İkinci, üçüncü, dördüncü ve beşinci fıkralarda belirtilen suçların başka bir kişi tarafından sahipli hayvana karşı işlenmesi halinde hayvan sahibinin şikayeti üzerine de soruşturma yapılır.
+
+Maddede düzenlenen suçlara konu olan ve 24 üncü madde uyarınca el konulan kedi ve köpekler ile Bakanlıkça uygun görülen diğer hayvanlar koruma altına alınarak bakımevi bulunan en yakın belediye tarafından hayvan bakımevine götürülür.”
+</Ref>
+
+<Ref no="7332/17">
+5199 sayılı Kanunun;
+
+a) 6 ncı maddesinin üçüncü fıkrasında yer alan “Tarım ve Köyişleri” ibaresi “Çevre ve Şehircilik” şeklinde, beşinci fıkrasında yer alan “usul ve esasları,” ibaresi “usul ve esasları ile burada çalışan personelin niteliğine ilişkin hususlar” şeklinde değiştirilmiştir.
+
+b) 8 inci maddesinin üçüncü fıkrasında ve 17 nci maddesinin üçüncü fıkrasında yer alan “ve süs” ibareleri madde metninden çıkarılmıştır.
+
+c) 9 uncu maddesinin beşinci fıkrasında yer alan “Tarım ve Köyişleri Bakanlığı ile” ibaresi madde metninden çıkarılmış ve altıncı fıkrasında yer alan “Tarım ve Köyişleri Bakanlığınca” ibaresi “Bakanlıkça” şeklinde değiştirilmiştir.
+
+26/9/2004 tarihli ve 5237 sayılı Türk Ceza Kanununun 151 inci maddesinin ikinci fıkrası yürürlükten kaldırılmıştır.
+</Ref>
+
+<Ref no="7527/2">
+5199 sayılı Kanunun 3 üncü maddesinin birinci fıkrasının (f) ve (j) bentleri aşağıdaki şekilde ve (k) bendinde yer alan “ve hayvanların rehabilite edileceği”
+ ibaresi “, hayvanların sahiplendirilinceye kadar barındırıldığı ve rehabilite edildiği” şeklinde değiştirilmiştir.
+
+“f) Sahipsiz hayvan: Sahipli hayvanlar dışında kalan evcil hayvanları,”
+
+“j) Sahipli hayvan: Bir kişi, kuruluş, kurum ya da tüzel kişilik tarafından sahiplenilen, bakımı, aşıları, periyodik sağlık kontrolleri yapılan ve Bakanlık veri tabanına kaydedilen ev hayvanlarını,”
+</Ref>
+
+<Ref no="7527/3">
+5199 sayılı Kanunun 4 üncü maddesinin birinci fıkrasının (b) bendi yürürlükten kaldırılmış, (d) bendinde yer alan “hayvanlara bakan veya bakmak” ibaresi “hayvanları sahiplenmek” şeklinde ve (j) bendinde yer alan “ve güçten düşmüş hayvanların korunması” ibaresi “hayvanların sahiplendirilinceye kadar bakılmaları” şeklinde değiştirilmiştir.
+</Ref>
+
+<Ref no="7527/4">
+5199 sayılı Kanunun 6 ncı maddesinin birinci fıkrasında yer alan “, 3285 sayılı Hayvan Sağlığı Zabıtası Kanununda öngörülen durumlar dışında” ibaresi “kanuni istisnalar hariç” şeklinde, üçüncü fıkrasında yer alan “çevreye olabilecek” ibaresi “insan ve çevre sağlığı için oluşabilecek” şeklinde ve “Çevre ve Şehircilik Bakanlığı” ibaresi “Çevre, Şehircilik ve İklim Değişikliği Bakanlığı” şeklinde, dördüncü fıkrasının son cümlesi aşağıdaki şekilde ve altıncı fıkrasında yer alan “hayvanlara bakan veya bakmak” ibaresi “hayvanları hayvan bakımevi kurarak sahiplenmek” şeklinde değiştirilmiştir.
+
+“Bakımevlerine alınan hayvanlar Bakanlık veri sistemine kaydedilir ve rehabilite edilen köpekler, sahiplendirilinceye kadar hayvan bakımevlerinde barındırılır.”
+</Ref>
+
+<Ref no="7527/5">
+5199 sayılı Kanunun İkinci Kısım Dördüncü Bölüm başlığında yer alan “Öldürülmesi” ibaresi “Ötanazisi” şeklinde ve 13 üncü maddesinin başlığı “Hayvanların ötanazisi” şeklinde değiştirilmiş, maddeye birinci fıkrasından önce gelmek üzere aşağıdaki fıkralar eklenmiş ve mevcut ikinci fıkrasının ikinci cümlesinde yer alan “Öldürme esas ve usulleri” ibaresi “Öldürme ve ötanazi işlemine ilişkin esas ve usuller” şeklinde değiştirilmiştir.
+
+“Bakımevine alınan köpeklerden; insan ve hayvanların hayatı ve sağlığı için tehlike teşkil eden ve olumsuz davranışları kontrol edilemeyen, bulaşıcı veya tedavi edilemeyen hastalığı bulunan ya da sahiplenilmesi yasak olanlara 11/6/2010 tarihli ve 5996 sayılı Veteriner Hizmetleri, Bitki Sağlığı, Gıda ve Yem Kanununun 9 uncu maddesinin üçüncü fıkrasında belirtilen tedbir uygulanır.
+
+Yerel yönetimler sahipsiz köpeklere ilişkin yürüttüğü iş ve işlemlerde Bakanlar Kurulunun 28/8/2003 tarihli ve 2003/6168 sayılı Kararı ile onaylanan Ev Hayvanlarının Korunmasına Dair Avrupa Sözleşmesi kapsamında gerekli idari tedbirleri almaya yetkilidir.”
+</Ref>
+
+<Ref no="7527/6">
+5199 sayılı Kanunun 14 üncü maddesinin birinci fıkrasının (h) bendinde yer alan “Tıbbî” ibaresi “Kanunî ve tıbbî” şeklinde değiştirilmiş ve fıkraya aşağıdaki bent eklenmiştir.
+
+“o) Yerel yönetimler adına toplanan sahipsiz hayvanları bakımevi dışında bir yere terk etmek veya bakımevinde barındırılan köpekleri bakımevi dışında bir yere bırakmak.”
+</Ref>
+
+<Ref no="7527/7">
+5199 sayılı Kanunun 16 ncı maddesinin birinci fıkrasının (b) bendi aşağıdaki şekilde değiştirilmiş ve (f) bendi yürürlükten kaldırılmıştır.
+
+“b) İl sınırları içinde hayvanların korunmasına ilişkin ve sahipsiz hayvanlardan kaynaklı sorunları belirleyip, sorunların çözüm tekliflerini içeren yıllık, beş yıllık ve on yıllık plan ve projeler yapmak, yıllık hedef raporları hazırlayıp Bakanlığın uygun görüşüne sunmak, Bakanlığın olumlu görüşünü alarak insan, hayvan ve çevre sağlığına ilişkin her türlü önlemi almak,”
+</Ref>
+
+<Ref no="7527/8">
+5199 sayılı Kanunun 19 uncu maddesinin birinci fıkrasının birinci cümlesi aşağıdaki şekilde değiştirilmiştir.
+
+“İnsan, hayvan ve çevre sağlığının korunması amacıyla bakımevleri, hastaneler ve ameliyathaneler kurmak, bunlara ilişkin ilaç, alet ve ekipmanları temin etmek ile bakımevlerinde bakım, rehabilitasyon ve sahiplendirme gibi faaliyetleri yürütmek için, başta yerel yönetimler olmak üzere diğer ilgili kurum ve kuruluşlara teşvik veya Bakanlıkça uygun görülen miktarlarda mali destek sağlanır.”
+</Ref>
+
+<Ref no="7527/9">
+5199 sayılı Kanunun 24 üncü maddesinin birinci fıkrasında yer alan “ve bu suretle bulundurduğu” ibaresi “veya sahiplendiği” şeklinde ve fıkranın son cümlesi aşağıdaki şekilde değiştirilmiştir.
+
+“Söz konusu hayvanlardan sahiplendirilme niteliği olanlar sahiplendirilinceye kadar hayvan bakımevinde barındırılır.”
+</Ref>
+
+<Ref no="7527/10">
+5199 sayılı Kanunun 28 inci maddesinin birinci fıkrasının (ı) bendinde yer alan “ikinci” ibaresi “dördüncü” şeklinde, (j) bendinde yer alan “hayvan başına iki bin” ibaresi “hayvan başına altmış bin” şeklinde ve aynı bentte yer alan “idarî para cezası.” ibaresi “; (o) bendine aykırı davrananlara hayvan başına elli bin Türk lirası idarî para cezası.” şeklinde değiştirilmiş, ikinci fıkrasında yer alan “hayvan koruma gönüllüsü,” ibaresi madde metninden çıkarılmıştır.
+</Ref>
+
+<Ref no="7527/11">
+5199 sayılı Kanunun 28/A maddesinin ikinci fıkrasına “birinci” ibaresinden sonra gelmek üzere “, ikinci ve üçüncü” ibaresi eklenmiş ve yedinci fıkrasında yer alan “hayvan koruma gönüllüsü,” ibaresi madde metninden çıkarılmıştır.
+</Ref>
+
+<Ref no="7527/12">
+5199 sayılı Kanunun 31 inci maddesinde yer alan “3285 sayılı Hayvan Sağlığı ve Zabıtası Kanunu, 4631 sayılı Hayvan Islahı Kanunu” ibaresi “5996 sayılı Kanun” şeklinde değiştirilmiştir.
+</Ref>
+
+<Ref no="7527/13">
+5199 sayılı Kanunun ek 1 inci maddesinin başlığı “Yerel yönetimlerin sorumluluğu” şeklinde değiştirilmiş, birinci fıkrasında yer alan “büyükşehir ilçe belediyeleri ile diğer” ibaresi madde metninden çıkarılmış, fıkraya “korunması ve” ibaresinden sonra gelmek üzere “sahiplendirilinceye kadar” ibaresi, ikinci fıkrasının ikinci cümlesinde yer alan “olmayan belediyeler” ibaresinden sonra gelmek üzere “ile il özel idareleri” ibaresi eklenmiş ve fıkranın üçüncü ve dördüncü cümleleri ile üçüncü fıkrası aşağıdaki şekilde değiştirilmiştir.
+
+“Bakımevlerine alınan hayvanlar Bakanlık veri sistemine kaydedilir. Rehabilite edilen köpekler, sahiplendirilinceye kadar hayvan bakımevlerinde barındırılır.”
+
+“Büyükşehir belediyeleri, il belediyeleri ve nüfusu yirmi beş bini aşan belediyeler bakımından, geçici 4 üncü maddenin ikinci fıkrasında belirtilen kaynağı ayırmayan belediye başkanı ve meclis üyeleri ile ayrılan kaynağı hayvan bakımevi kurmak, sahipsiz hayvanları toplamak, rehabilite etmek veya sahiplendirilinceye kadar bakmak için sarf etmeyen ya da bu kaynağı başka amaçlar için sarf eden belediye başkanı ve belediye yetkililerine altı aydan iki yıla kadar hapis cezası verilir.”
+</Ref>
+
+<Ref no="7527/14">
+5199 sayılı Kanunun geçici 4 üncü maddesi aşağıdaki şekilde değiştirilmiştir.
+
+“GEÇİCİ MADDE 4- Büyükşehir belediyeleri, il belediyeleri ve nüfusu yirmi beş bini aşan belediyeler 31/12/2028 tarihine kadar ek 1 inci maddenin birinci fıkrasında belirtilen hayvan bakımevlerini kurmakla ve mevcut bakımevlerinin koşullarını iyileştirmekle yükümlüdür.
+
+Belediyeler 31/12/2028 tarihine kadar birinci fıkra gereğince hayvan bakımevleri kurmak, rehabilitasyon işlemlerini gerçekleştirmek ve sahipsiz hayvanlara sahiplendirilinceye kadar bakmak için kesinleşmiş en son bütçe gelirlerinin binde beşi oranında kaynak ayırır. Bu oran büyükşehir belediyelerinde binde üç olarak uygulanır. Bu fıkra uyarınca ayrılan ödenekler başka bir amaç için kullanılamaz.
+
+Belediyelerce bu maddenin ikinci fıkrasında belirlenen oranların üzerinde yapılan harcamaların yüzde 40’ı, tevsik edilmesi kaydıyla ilgili belediyeye Hazine ve Maliye Bakanlığınca aktarılır. Ancak, aktarılacak tutar hiçbir şekilde ikinci fıkrada belirlenen oranların yüzde 40’ını geçemez. Bu fıkranın uygulanmasına ilişkin usul ve esaslar Hazine ve Maliye Bakanlığınca belirlenir.
+
+Kedi ve köpek sahipleri, hayvanlarını en geç 31/12/2025 tarihine kadar dijital kimliklendirme yöntemleriyle kayıt altına aldırmak zorundadır.”
+</Ref>
+
+<Ref no="7527/15">
+5199 sayılı Kanunun;
+
+a) 5 inci maddesinin birinci fıkrasında yer alan “veya ona bakan” ibaresi, dördüncü fıkrasında yer alan “ve kontrollü hayvanları bulundurma ve” ibaresi ile 17 nci maddesinin üçüncü fıkrasında yer alan “ev hayvanları ile” ibaresi metinden çıkarılmış,
+
+b) Üçüncü Kısım İkinci Bölüm başlığında yer alan “ve Hayvan Koruma Gönüllüleri” ibaresi kanun metninden çıkarılmış ve 18 inci maddesi yürürlükten kaldırılmıştır.
+</Ref>

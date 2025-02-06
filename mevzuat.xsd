@@ -40,6 +40,7 @@
       <xs:simpleType>
         <xs:restriction base="xs:string">
           <xs:enumeration value="Değişik" />
+          <xs:enumeration value="Değişik başlık" />
           <xs:enumeration value="Ek" />
           <xs:enumeration value="Mülga" />
           <xs:enumeration value="Ek cümle" />
