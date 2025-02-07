@@ -99,7 +99,7 @@
 </xsl:template>
 
 <xsl:template match="Atıf">
-  <span class="kalın"><a href="#">(<xsl:value-of select="@tür" />: <xsl:value-of select="@tarih" />-<xsl:value-of select="@kanun" />/<xsl:value-of select="@madde" /> md.)</a> </span>
+  <span class="kalın"><a href="javascript:void(0)">(<xsl:value-of select="@tür" />: <xsl:value-of select="@tarih" />-<xsl:value-of select="@kanun" />/<xsl:value-of select="@madde" /> md.)</a> </span>
 </xsl:template>
 
 <xsl:template match="text()[count(preceding-sibling::Bent)>0]">

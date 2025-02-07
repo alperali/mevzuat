@@ -35,3 +35,8 @@
 .ref {
   display: none;
 }
+
+a:link {
+  color: navy;
+  text-decoration: none;
+}
