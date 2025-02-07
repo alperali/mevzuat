@@ -31,3 +31,7 @@
   text-indent: 3rem;
   margin-bottom: 0.5rem;
 }
+
+.ref {
+  display: none;
+}

@@ -39,9 +39,40 @@
           <td>Cilt: <xsl:value-of select="ResmiGazete/Düstur/@cilt"/></td>
         </tr>
       </table>
+
       <xsl:apply-templates select="Kısım" />
+
+      <xsl:apply-templates select="Ref" />
+
+      <dialog>
+        <form>
+          <h3>Kanun: <span id="diagkn"></span>, &#160;md. <span id="diagmn"></span></h3>
+          <p id="diagatıf"></p>
+          <button type="submit" formmethod="dialog"> Kapat </button>
+        </form>
+      </dialog>
+
+      <script>
+        function atıf_göster(e) {
+          const idx = e.target.innerText.split('-')[1].split(' ')[0];
+          const [kn, mn] = idx.split('/');
+
+          document.querySelector('dialog>form #diagkn').innerHTML = kn;
+          document.querySelector('dialog>form #diagmn').innerHTML = mn;
+          document.querySelector('dialog>form>p').innerHTML = document.querySelector(`p[data-idx="${idx}"]`).innerText.replace(/\n/g,'<br />');
+          document.querySelector('dialog').showModal();
+        }
+
+        document.querySelectorAll("a").forEach(a => a.addEventListener("click", atıf_göster));
+        document.querySelector("dialog>form>button").addEventListener("click", document.querySelector('dialog').close());
+      </script>
+
     </body>
   </html>
+</xsl:template>
+
+<xsl:template match="Ref">
+  <p class="ref" data-idx="{@no}"><xsl:value-of select='.' /></p>
 </xsl:template>
 
 <xsl:template match="Kısım">
@@ -68,7 +99,7 @@
 </xsl:template>
 
 <xsl:template match="Atıf">
-  <span class="kalın">(<xsl:value-of select="@tür" />: <xsl:value-of select="@tarih" />-<xsl:value-of select="@kanun" />/<xsl:value-of select="@madde" /> md.) </span>
+  <span class="kalın"><a href="#">(<xsl:value-of select="@tür" />: <xsl:value-of select="@tarih" />-<xsl:value-of select="@kanun" />/<xsl:value-of select="@madde" /> md.)</a> </span>
 </xsl:template>
 
 <xsl:template match="text()[count(preceding-sibling::Bent)>0]">
