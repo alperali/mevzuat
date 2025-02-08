@@ -54,12 +54,12 @@
 
       <script>
         function atıf_göster(e) {
-          const idx = e.target.innerText.split('-')[1].split(' ')[0];
-          const [kn, mn] = idx.split('/');
+          const idx = e.target.innerText?.split('-')[1].split(' ')[0];
+          const [kn, mn] = idx?.split('/');
 
           document.querySelector('dialog>form #diagkn').innerHTML = kn;
           document.querySelector('dialog>form #diagmn').innerHTML = mn;
-          document.querySelector('dialog>form>p').innerHTML = document.querySelector(`p[data-idx="${idx}"]`).innerText.replace(/\n/g,'<br />');
+          document.querySelector('dialog>form>p').innerHTML = document.querySelector(`p[data-idx="${idx}"]`).innerText?.replace(/\n/g,'<br />');
           document.querySelector('dialog').showModal();
         }
 
