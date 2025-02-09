@@ -58,11 +58,6 @@
     <xs:attribute name="madde" type="xs:positiveInteger" use="required" />
   </xs:complexType>
 
-  <!-- Madde içindeki Atıf türü Değişik ise madde başlığını değiştirene, Mülga ise maddeyi mülga edene atıftır -->
-  <!-- Madde içindeki Atıf türü Ek ise ve Madde no 23/A gibiyse maddeyi ekleyene atıftır -->
-  <!-- Bölüm içindeki Atıf türü Değişik ise bölüm başlığını değiştirene atıftır -->
-  <!-- Fıkra ve Bent için değişim, ek, mülga o fıkra/bent içinde belirtilir -->
-
   <xs:complexType name="türKısım">
     <xs:sequence>
       <xs:element name="Bölüm" maxOccurs="unbounded">
