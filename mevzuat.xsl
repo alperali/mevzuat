@@ -52,20 +52,7 @@
         </form>
       </dialog>
 
-      <script>
-        function atıf_göster(e) {
-          const idx = e.target.innerText?.split('-')[1].split(' ')[0];
-          const [kn, mn] = idx?.split('/');
-
-          document.querySelector('dialog>form #diagkn').innerHTML = kn;
-          document.querySelector('dialog>form #diagmn').innerHTML = mn;
-          document.querySelector('dialog>form>p').innerHTML = document.querySelector(`p[data-idx="${idx}"]`).innerText?.replace(/\n/g,'<br />');
-          document.querySelector('dialog').showModal();
-        }
-
-        document.querySelectorAll("a").forEach(a => a.addEventListener("click", atıf_göster));
-        document.querySelector("dialog>form>button").addEventListener("click", document.querySelector('dialog').close());
-      </script>
+      <script type="module" src="./js/mevzuat.js"></script>
 
     </body>
   </html>
@@ -103,18 +90,18 @@
 </xsl:template>
 
 <xsl:template match="text()[count(preceding-sibling::Bent)>0]">
-  <p class="asılı"><xsl:value-of select="." /></p>
+  <p class="asılı hcl"><xsl:value-of select="." /></p>
 </xsl:template>
 
 <xsl:template match="Fıkra">
-  <p class="asılı">(<xsl:value-of select="@no" />) <xsl:apply-templates select="Atıf|text()[count(preceding-sibling::Bent)=0]" />
+  <p class="asılı hcl">(<xsl:value-of select="@no" />) <xsl:apply-templates select="Atıf|text()[count(preceding-sibling::Bent)=0]" />
   </p>
   <xsl:apply-templates select="Bent" />
   <xsl:apply-templates select="text()[count(preceding-sibling::Bent)>0]" />
 </xsl:template>
 
 <xsl:template match="Bent">
-  <p class="asılı"><xsl:value-of select="@no" />) <xsl:apply-templates select="Atıf|text()" />
+  <p class="asılı hcl"><xsl:value-of select="@no" />) <xsl:apply-templates select="Atıf|text()" />
   </p>
 </xsl:template>
 

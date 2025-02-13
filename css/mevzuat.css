@@ -40,3 +40,7 @@ a:link {
   color: navy;
   text-decoration: none;
 }
+
+.hcl {
+  hyphens: manual;
+}
