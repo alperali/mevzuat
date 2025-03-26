@@ -169,6 +169,23 @@
               </xs:complexType>
             </xs:element>
 
+            <xs:element name="Giriş" minOccurs="0" maxOccurs="1">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="Bent" maxOccurs="unbounded">
+                    <xs:complexType>
+                      <xs:simpleContent>
+                      <xs:extension base="xs:string">
+                        <xs:attribute name="no" type="xs:positiveInteger" use="required" />
+                      </xs:extension>
+                      </xs:simpleContent>
+                    </xs:complexType>
+						      </xs:element>
+                </xs:sequence>
+                <xs:attribute name="başlık" type="xs:string" use="required" />
+              </xs:complexType>
+            </xs:element>
+
             <xs:choice>
             
               <xs:element name="Kitap" maxOccurs="unbounded" minOccurs="0">
