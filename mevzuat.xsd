@@ -162,6 +162,7 @@
                     <xs:complexType>
                       <xs:attribute name="tertip" type="xs:positiveInteger" use="required" />
                       <xs:attribute name="cilt"   type="xs:positiveInteger" use="required" />
+                      <xs:attribute name="sayfa"  type="xs:positiveInteger" />
                     </xs:complexType>
                   </xs:element>
                 </xs:sequence>
