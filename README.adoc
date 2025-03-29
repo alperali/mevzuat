@@ -9,6 +9,7 @@ https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=5210&MevzuatTur=21&MevzuatTertip=5[
 XML şema tanımlaması (XSD) ve XSL dönüşümü (XSLT).
 Dönüşüm işlemi ayrıca satır sonu otomatik heceleme de yapmaktadır.
 
+image::mevz.gif[]
 
 '''
 
