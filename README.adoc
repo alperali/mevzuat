@@ -7,6 +7,8 @@
 [.lead]
 https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=5210&MevzuatTur=21&MevzuatTertip=5[5210 sayılı] yönetmelikteki usul ve esaslara uygun
 XML şema tanımlaması (XSD) ve XSL dönüşümü (XSLT).
+Dönüşüm işlemi ayrıca satır sonu otomatik heceleme de yapmaktadır.
+
 
 '''
 
