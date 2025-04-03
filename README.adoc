@@ -23,3 +23,11 @@ image::mevz.gif[]
 
 Kanun için şema ve dönüşüm geliştirilmiştir.
 Kararname, Tüzük, Yönetmelik, vs için de benzeri yapılabilir.
+
+
+== Sonuç
+Bu proje bir _proof-of-concept_ olarak tamamlanıp sunulmuştur.
+Günümüz popüler web tarayıcıları XSLT dönüşüme dayalı XML belge sunumlarından uzaklaşmış ve uzun süredir bu konudaki gelişmeleri takip etmemektedir.
+Bunun yerini web bileşenleri (_web components_) almıştır.
+İleriye yönelik ve gelişmeleri takip eden *tarayıcı içi* XML belge sunumları için bu teknoloji (_custom elements, shadow DOM, <template>_)
+tercih edilmelidir.
